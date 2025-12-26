@@ -25,6 +25,8 @@ export default defineConfig({
         },
         nav: [
           { text: 'Startseite', link: '/de/' },
+          { text: 'Impressum', link: 'https://epiph.yt/impressum/' },
+          { text: 'Datenschutzerklärung', link: 'https://epiph.yt/datenschutz/' },
         ],
         notFound: {
           title: 'Seite nicht gefunden',
@@ -58,6 +60,8 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Legal Notice', link: 'https://epiph.yt/en/imprint/' },
+      { text: 'Privacy Policy', link: 'https://epiph.yt/en/privacy-policy/' },
     ],
     search: {
       options: {
