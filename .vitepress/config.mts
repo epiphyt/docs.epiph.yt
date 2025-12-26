@@ -20,6 +20,10 @@ export default defineConfig({
           next: 'Nächste Seite',
           prev: 'Vorherige Seite',
         },
+        editLink: {
+          pattern: 'https://github.com/epiphyt/docs.epiph.yt/edit/main/:path',
+          text: 'Diese Seite auf GitHub bearbeiten',
+        },
         lastUpdated: {
           text: 'Zuletzt aktualisiert'
         },
@@ -58,6 +62,10 @@ export default defineConfig({
     logo: {
       dark: '/images/logo-sign_white.svg',
       light: '/images/logo-sign_black.svg',
+    },
+    editLink: {
+      pattern: 'https://github.com/epiphyt/docs.epiph.yt/edit/main/:path',
+      text: 'Edit this page on GitHub',
     },
     nav: [
       { text: 'Home', link: '/' },
