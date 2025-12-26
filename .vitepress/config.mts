@@ -41,6 +41,7 @@ export default defineConfig({
         langMenuLabel: 'Sprache ändern',
         returnToTopLabel: 'Nach oben',
         sidebarMenuLabel: 'Menü',
+        darkModeSwitchLabel: 'Darstellung',
         lightModeSwitchTitle: 'Zum hellen Theme wechseln',
         darkModeSwitchTitle: 'Zum dunklen Theme wechseln',
         skipToContentLabel: 'Zum Inhalt wechseln',
