@@ -15,7 +15,7 @@ Expects an array.
 
 Through the filter `embed_privacy_content` the embed overlay content can be changed.
 
-Deprecated since 1.10.0, use `[embed_privacy_template_content](#embed_privacy_template_content)` instead.
+Deprecated since 1.10.0, use [`embed_privacy_template_content`](#embed_privacy_template_content) instead.
 
 Parameters:
 string $content The content  

@@ -15,7 +15,7 @@ Erwartet ein Array.
 
 Durch den Filter `embed_privacy_content` kann der Inhalt des Embed-Overlays geändert werden.
 
-Veraltet seit 1.10.0, verwende stattdessen `[embed_privacy_template_content](#embed_privacy_template_content)`.
+Veraltet seit 1.10.0, verwende stattdessen [`embed_privacy_template_content`](#embed_privacy_template_content).
 
 Parameter:  
 string $content Der Inhalt  
