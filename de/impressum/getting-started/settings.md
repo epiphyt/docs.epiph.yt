@@ -1,6 +1,6 @@
 # Einstellungen
 
-All settings of Impressum Plus and Impressum can be found in **Settings > Impressum**.
+Alle Einstellungen von Impressum Plus und Impressum findest du unter **Einstellungen > Impressum**.
 
 ## Impressum-Einstellungen
 

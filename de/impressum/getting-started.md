@@ -1,7 +1,3 @@
----
-prev: 'Get Started | Markdown'
----
-
 # Erste Schritte
 
 Nach der Installation des Plugins, sollte sich in der Plugin-Übersicht – unter **Plugins** im Admin-Menü des WordPress-Backends – ein Eintrag für Impressum Plus finden. Über diesen Eintrag kann das Plugin aktiviert werden.

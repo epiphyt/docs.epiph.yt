@@ -1,6 +1,6 @@
 # Installation
 
-Nach dem Kauf von Impressum Plus erhältst du einen Link zum Download der Plugin-Dateien und einen Lizenz-Key. Für das kostenlose Impressum-Plugin sind solche Zugangsdaten weder vorhanden noch erforderlich.
+Nach dem Kauf von Impressum Plus erhältst du einen Link zum Download der Plugin-Dateien und einen Lizenzschlüssel. Für das kostenlose Impressum-Plugin sind solche Zugangsdaten weder vorhanden noch erforderlich.
 
 ## Installation über das Backend
 
