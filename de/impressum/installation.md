@@ -11,9 +11,7 @@ Die heruntergeladene `.zip`-Datei kannst du einfach über dein WordPress-Backend
 Um die heruntergeladene `.zip`-Datei per (S)FTP zu installieren, musst du sie zunächst entpacken und die enthaltenen Dateien und Verzeichnisse mit dem FTP-Programm deiner Wahl auf deinen Webspace laden.
 Nach dem Upload sollten sie unter `wp-content/plugins/impressum-plus` bzw. `wp-content/plugins/impressum` abgelegt sein.
 
-## Installation via Composer
-
-seit 2.11.0
+## Installation via Composer <Badge type="info" text="Seit 2.11.0" />
 
 Composer ist eine Paketverwaltung für PHP-Projekte, die verwendet werden kann, um Impressum Plus als erforderliches Paket in deine eigenen PHP-Projekte hinzuzufügen.
 

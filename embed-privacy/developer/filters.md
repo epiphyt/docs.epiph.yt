@@ -1,8 +1,6 @@
 # Filters
 
-## `embed_privacy_integrations`
-
-Since 1.10.0
+## `embed_privacy_integrations` <Badge type="info" text="Since 1.10.0" />
 
 Through the filter `embed_privacy_integrations` the available integrations can be changed before their initialization.
 
@@ -11,7 +9,7 @@ array $integrations List of integrations
 
 Expects an array.
 
-## `embed_privacy_content`
+## `embed_privacy_content` <Badge type="warning" text="Deprecated since 1.10.0" />
 
 Through the filter `embed_privacy_content` the embed overlay content can be changed.
 
@@ -32,7 +30,7 @@ string $footer\_content The footer content
 
 Expects a string.
 
-## `embed_privacy_markup`
+## `embed_privacy_markup` <Badge type="warning" text="Deprecated since 1.10.0" />
 
 Through the filter `embed_privacy_markup` the whole embed overlay container can be changed.
 
@@ -44,9 +42,7 @@ string $embed\_provider The embed provider of this embed
 
 Expects a string.
 
-## `embed_privacy_has_embed`
-
-Since 1.3.0
+## `embed_privacy_has_embed` <Badge type="info" text="Since 1.3.0" />
 
 Through the filter `embed_privacy_has_embed` the return value of `Embed_Privacy::has_embed()` can be overridden.
 
@@ -55,9 +51,7 @@ null $has\_embed The default value
 
 Expects anything other than `null`.
 
-## `embed_privacy_provider_list`
-
-Since 1.10.0
+## `embed_privacy_provider_list` <Badge type="info" text="Since 1.10.0" />
 
 Through the filter `embed_privacy_provider_list` the list of providers for a specific identifier can be filtered.
 
@@ -68,9 +62,7 @@ array $global\_list List with all providers of all identifiers
 
 Expects an array.
 
-## `embed_privacy_provider_name`
-
-Since 1.10.0
+## `embed_privacy_provider_name` <Badge type="info" text="Since 1.10.0" />
 
 Through the filter `embed_privacy_provider_name` the name of an embed provider can be filtered.
 
@@ -80,9 +72,7 @@ string $provider Embed provider
 
 Expects a string.
 
-## `embed_privacy_overlay_provider`
-
-Since 1.10.0
+## `embed_privacy_overlay_provider` <Badge type="info" text="Since 1.10.0" />
 
 Through the filter `embed_privacy_overlay_provider` the current embed provider can be filtered.
 
@@ -93,15 +83,11 @@ string $url URL to the embedded content
 
 Expects an object of type `\epiphyt\Embed_Privacy\embed\Provider`.
 
-## `embed_privacy_print_assets`
-
-Since 1.10.0
+## `embed_privacy_print_assets` <Badge type="info" text="Since 1.10.0" />
 
 The action `embed_privacy_print_assets` fires after the assets have been printed.
 
-## `embed_privacy_register_assets`
-
-Since 1.10.0
+## `embed_privacy_register_assets` <Badge type="info" text="Since 1.10.0" />
 
 The action `embed_privacy_register_assets` fires after the assets have been registered.
 
@@ -109,9 +95,7 @@ Parameters:
 bool $is\_debug Whether debug mode is enabled  
 string $suffix A filename suffix
 
-## `embed_privacy_assets_$embed_provider_lowercase`
-
-Since 1.4.5
+## `embed_privacy_assets_$embed_provider_lowercase` <Badge type="info" text="Since 1.4.5" />
 
 Through the filter `embed_privacy_assets_$embed_provider_lowercase` additional assets that are necessary to get an embed working can be printed.
 
@@ -127,7 +111,7 @@ string $embed\_provider\_lowercase The current embed provider in lowercase
 
 Expects an array with arrays.
 
-## `embed_privacy_overlay_args`
+## `embed_privacy_overlay_args` <Badge type="warning" text="Deprecated since 1.10.0" />
 
 Through the filter `embed_privacy_overlay_args` the arguments before creating an overlay can be changed.
 
@@ -141,9 +125,7 @@ string $output The output before replacing it
 
 Expects an array.
 
-## `embed_privacy_overlay_replaced_content`
-
-Since 1.10.0
+## `embed_privacy_overlay_replaced_content` <Badge type="info" text="Since 1.10.0" />
 
 Through the filter `embed_privacy_overlay_replaced_content` the replaced embed content can be changed.
 
@@ -152,9 +134,7 @@ string $content Replaced content
 
 Expects a string.
 
-## `embed_privacy_overlay_character_replacements`
-
-Since 1.10.0
+## `embed_privacy_overlay_character_replacements` <Badge type="info" text="Since 1.10.0" />
 
 Through the filter `embed_privacy_overlay_character_replacements` special character replacements for `DOMDocument` can be changed.
 
@@ -163,9 +143,7 @@ array $replacements Current replacements
 
 Expects an associative array.
 
-## `embed_privacy_template_attributes`
-
-Since 1.10.0
+## `embed_privacy_template_attributes` <Badge type="info" text="Since 1.10.0" />
 
 Through the filter `embed_privacy_template_attributes` the attributes for the embed template can be changed.
 
@@ -176,9 +154,7 @@ string $output The output before replacing it
 
 Expects an array.
 
-## `embed_privacy_before_template_output`
-
-Since 1.10.0
+## `embed_privacy_before_template_output` <Badge type="info" text="Since 1.10.0" />
 
 The action `embed_privacy_before_template_output` fires before the template output is generated.
 
@@ -187,9 +163,7 @@ Parameters:
 \\epiphyt\\Embed\_Privacy\\embed\\Style $style The overlay style object  
 array $attributes Additional attributes
 
-## `embed_privacy_template_content`
-
-Since 1.10.0
+## `embed_privacy_template_content` <Badge type="info" text="Since 1.10.0" />
 
 Through the filter `embed_privacy_template_content` the content of an overlay template can be changed.
 
@@ -199,9 +173,7 @@ string $provider The embed provider of this embed
 
 Expects a string.
 
-## `embed_privacy_template_markup`
-
-Since 1.10.0
+## `embed_privacy_template_markup` <Badge type="info" text="Since 1.10.0" />
 
 Through the filter `embed_privacy_template_markup` the markup of an overlay template can be changed.
 
@@ -211,9 +183,7 @@ string $markup The markup
 
 Expects a string.
 
-## `embed_privacy_theme_content_width`
-
-Since 1.10.0
+## `embed_privacy_theme_content_width` <Badge type="info" text="Since 1.10.0" />
 
 Through the filter `embed_privacy_theme_content_width` the content with to determine the correct embed aspect ratio can be filtered.
 
@@ -222,9 +192,7 @@ int $content\_width Current content width
 
 Expects an integer.
 
-## `embed_privacy_background_path_$embed_provider_lowercase`
-
-Since 1.1.0
+## `embed_privacy_background_path_$embed_provider_lowercase` <Badge type="info" text="Since 1.1.0" />
 
 Through the filter `embed_privacy_background_path_$embed_provider_lowercase` the path to the background image of the overlay can be changed.
 
@@ -234,9 +202,7 @@ string $embed\_provider\_lowercase The current embed provider in lowercase
 
 Expects a string to a valid path to a background image.
 
-## `embed_privacy_background_url_$embed_provider_lowercase`
-
-Since 1.1.0
+## `embed_privacy_background_url_$embed_provider_lowercase` <Badge type="info" text="Since 1.1.0" />
 
 Through the filter `embed_privacy_background_url_$embed_provider_lowercase` the URL to the background image of the overlay can be changed.
 
@@ -266,9 +232,7 @@ string $embed\_provider\_lowercase The current embed provider in lowercase
 
 Expects a string to a valid URL to a logo.
 
-## `embed_privacy_thumbnail_checked_orphaned`
-
-Since 1.7.0
+## `embed_privacy_thumbnail_checked_orphaned` <Badge type="info" text="Since 1.7.0" />
 
 The action `embed_privacy_thumbnail_checked_orphaned` fires after orphaned data for a provider have been checked and deleted, if applicable.
 
@@ -283,9 +247,7 @@ string $meta\_key The thumbnail meta key
 WP\_Post $post The post object  
 int $post\_id The post ID
 
-## `embed_privacy_thumbnail_data_filename`
-
-Since 1.7.0
+## `embed_privacy_thumbnail_data_filename` <Badge type="info" text="Since 1.7.0" />
 
 Through the filter `embed_privacy_thumbnail_data_filename` the thumbnail filename while getting thumbnail data can be changed.
 
@@ -296,9 +258,7 @@ string $url The embed URL
 
 Expects a string with a thumbnail filename.
 
-## `embed_privacy_thumbnail_data_id`
-
-Since 1.7.0
+## `embed_privacy_thumbnail_data_id` <Badge type="info" text="Since 1.7.0" />
 
 Through the filter `embed_privacy_thumbnail_data_id` the thumbnail ID while getting thumbnail data can be changed.
 
@@ -309,9 +269,7 @@ string $url The embed URL
 
 Expects a string with a thumbnail ID.
 
-## `embed_privacy_thumbnail_data_path`
-
-Since 1.7.0
+## `embed_privacy_thumbnail_data_path` <Badge type="info" text="Since 1.7.0" />
 
 Through the filter `embed_privacy_thumbnail_data_path` the thumbnail path while getting thumbnail data can be changed.
 
@@ -322,9 +280,7 @@ string $url The embed URL
 
 Expects a string with a thumbnail path.
 
-## `embed_privacy_thumbnail_data_url`
-
-Since 1.7.0
+## `embed_privacy_thumbnail_data_url` <Badge type="info" text="Since 1.7.0" />
 
 Through the filter `embed_privacy_thumbnail_data_url` the thumbnail URL while getting thumbnail data can be changed.
 
@@ -335,9 +291,7 @@ string $url The embed URL
 
 Expects a string with a thumbnail URL.
 
-## `embed_privacy_thumbnail_get_from_provider`
-
-Since 1.7.0
+## `embed_privacy_thumbnail_get_from_provider` <Badge type="info" text="Since 1.7.0" />
 
 The action `embed_privacy_thumbnail_get_from_provider` fires after thumbnail data have been processed.
 
@@ -346,9 +300,7 @@ string $return The returned oEmbed HTML
 object $data A data object result from an oEmbed provider  
 string $url The URL of the content to be embedded
 
-## `embed_privacy_thumbnail_path_$embed_provider_lowercase`
-
-Since 1.1.0
+## `embed_privacy_thumbnail_path_$embed_provider_lowercase` <Badge type="info" text="Since 1.1.0" />
 
 Through the filter `embed_privacy_thumbnail_path_$embed_provider_lowercase` the path to the thumbnail of the overlay can be changed.
 
@@ -358,9 +310,7 @@ string $embed\_provider\_lowercase The current embed provider in lowercase
 
 Expects a string to a valid path to a thumbnail.
 
-## `embed_privacy_thumbnail_supported_provider_names`
-
-Since 1.7.0
+## `embed_privacy_thumbnail_supported_provider_names` <Badge type="info" text="Since 1.7.0" />
 
 Through the filter `embed_privacy_thumbnail_supported_provider_names` the internal names of supported thumbnail providers can be changed.
 
@@ -369,9 +319,7 @@ array supported\_providers Current supported provider names
 
 Expects an array with thumbnail provider names.
 
-## `embed_privacy_thumbnail_providers`
-
-Since 1.9.0
+## `embed_privacy_thumbnail_providers` <Badge type="info" text="Since 1.9.0" />
 
 Through the filter `embed_privacy_thumbnail_providers` the registered thumbnail providers can be changed.
 
@@ -380,7 +328,7 @@ Thumbnail\_Provider\[\] $supported\_providers Current supported providers
 
 Expects an array with thumbnail provider classes.
 
-## `embed_privacy_pre_thumbnail_delete_orphaned_delete`
+## `embed_privacy_pre_thumbnail_delete_orphaned_delete` <Badge type="warning" text="Deprecated since 1.10.0" />
 
 Through the action `embed_privacy_pre_thumbnail_delete_orphaned_delete` the deletion of orphaned thumbnails can be disabled.
 
@@ -392,9 +340,7 @@ string $url The thumbnail URL
 int $post\_id The post ID  
 string $provider The provider name
 
-## `embed_privacy_thumbnail_delete_orphaned`
-
-Since 1.10.0
+## `embed_privacy_thumbnail_delete_orphaned` <Badge type="info" text="Since 1.10.0" />
 
 Through the filter `embed_privacy_thumbnail_delete_orphaned` the deletion of orphaned thumbnails can be disabled.
 
@@ -407,9 +353,7 @@ string $provider The provider name
 
 Expects a boolean.
 
-## `embed_privacy_thumbnail_url_$embed_provider_lowercase`
-
-Since 1.1.0
+## `embed_privacy_thumbnail_url_$embed_provider_lowercase` <Badge type="info" text="Since 1.1.0" />
 
 Through the filter `embed_privacy_thumbnail_url_$embed_provider_lowercase` the URL to the thumbnail of the overlay can be changed.
 
@@ -419,9 +363,7 @@ string $embed\_provider\_lowercase The current embed provider in lowercase
 
 Expects a string to a valid URL to a thumbnail.
 
-## `embed_privacy_ignore_embed`
-
-Since 1.9.0
+## `embed_privacy_ignore_embed` <Badge type="info" text="Since 1.9.0" />
 
 Through the filter `embed_privacy_ignore_embed` the processing of particular embeds can be disabled.
 
@@ -434,9 +376,7 @@ array $args Additional arguments
 
 Expects a boolean.
 
-## `embed_privacy_is_ignored_request`
-
-Since 1.10.0
+## `embed_privacy_is_ignored_request` <Badge type="info" text="Since 1.10.0" />
 
 Through the filter `embed_privacy_is_ignored_request` a complete request can be set to be ignored.
 
@@ -445,9 +385,7 @@ bool $is\_ignored\_embed Whether the request is currently ignored
 
 Expects a boolean.
 
-## `embed_privacy_ignore_unknown_providers`
-
-Since 1.5.0
+## `embed_privacy_ignore_unknown_providers` <Badge type="info" text="Since 1.5.0" />
 
 Through the filter `embed_privacy_ignore_unknown_providers` the processing of embeds of unknown embed providers can be disabled.
 
@@ -457,9 +395,7 @@ string $content The original content
 
 Expects a boolean.
 
-## `embed_privacy_ignored_shortcodes`
-
-Since 1.6.0
+## `embed_privacy_ignored_shortcodes` <Badge type="info" text="Since 1.6.0" />
 
 Through the filter `embed_privacy_ignored_shortcodes` shortcodes can be ignored from being replaced by an overlay.
 
@@ -468,9 +404,7 @@ string\[\] $ignored\_shortcodes Current list of ignored shortcodes
 
 Expects an array.
 
-## `embed_privacy_should_replace_match`
-
-Since 1.10.9
+## `embed_privacy_should_replace_match` <Badge type="info" text="Since 1.10.9" />
 
 Through the filter `embed_privacy_should_replace_match` you can define whether a match should actually be replaced.
 
@@ -482,22 +416,18 @@ mixed\[\] $attributes Current attributes
 
 Expects a boolean.
 
-## `embed_privacy_dynamic_style_properties`
+## `embed_privacy_dynamic_style_properties` <Badge type="warning" text="Deprecated since 1.10.0" />
 
 Through the filter `embed_privacy_dynamic_style_properties` properties for the dynamic embed style of a page can be changed.
-
-Deprecated since 1.10.0.
 
 Parameters:
 array $style\_properties Style properties array
 
 Expects an array.
 
-## `embed_privacy_dynamic_style`
+## `embed_privacy_dynamic_style` <Badge type="warning" text="Deprecated since 1.10.0" />
 
 Through the filter `embed_privacy_dynamic_style` the dynamic embed style of a page can be changed.
-
-Deprecated since 1.10.0.
 
 Parameters:
 string $style Generated style  
@@ -505,7 +435,7 @@ array $style\_properties Style properties array
 
 Expects a string.
 
-## `embed_privacy_matcher_elements`
+## `embed_privacy_matcher_elements` <Badge type="warning" text="Deprecated since 1.10.0" />
 
 Through the filter `embed_privacy_matcher_elements` the HTML elements, which will extend the regular expression for custom embed providers, can be changed.
 
@@ -517,9 +447,7 @@ string $embed\_provider\_lowercase The current embed provider in lowercase
 
 Expects an array.
 
-## `embed_privacy_replacer_matcher_elements`
-
-Since 1.10.0
+## `embed_privacy_replacer_matcher_elements` <Badge type="info" text="Since 1.10.0" />
 
 Through the filter `embed_privacy_replacer_matcher_elements` the HTML elements, which will extend the regular expression for custom embed providers, can be changed.
 
@@ -529,9 +457,7 @@ string\[\] $allowed\_tags List of allowed tags
 
 Expects an array.
 
-## `embed_privacy_custom_embed_replacement`
-
-Since 1.11.0
+## `embed_privacy_custom_embed_replacement` <Badge type="info" text="Since 1.11.0" />
 
 Through the filter `embed_privacy_custom_embed_replacement` a custom replacement for embeds can be returned, short-circuiting the default replacement strategy of Embed Privacy.
 
@@ -542,9 +468,7 @@ string $tag The shortcode tag if called via do\_shortcode
 
 Expects a string.
 
-## `embed_privacy_custom_oembed_replacement`
-
-Since 1.11.0
+## `embed_privacy_custom_oembed_replacement` <Badge type="info" text="Since 1.11.0" />
 
 Through the filter `embed_privacy_custom_oembed_replacement` a custom replacement for oEmbeds can be returned, short-circuiting the default replacement strategy of Embed Privacy.
 
@@ -557,9 +481,7 @@ array $attributes Additional attributes of the embed
 
 Expects a string.
 
-## `embed_privacy_widget_output`
-
-Since 1.1.0
+## `embed_privacy_widget_output` <Badge type="info" text="Since 1.1.0" />
 
 Through the filter `embed_privacy_widget_output` the output of a widget can be changed.
 
@@ -570,9 +492,7 @@ string $sidebar\_id The current sidebar ID
 
 Expects a string.
 
-## `embed_privacy_opt_out_headline`
-
-Since 1.2.0
+## `embed_privacy_opt_out_headline` <Badge type="info" text="Since 1.2.0" />
 
 Through the filter `embed_privacy_opt_out_headline` the headline of the opt-out shortcode can be changed.
 
@@ -582,9 +502,7 @@ array $attributes Shortcode attributes
 
 Expects a string.
 
-## `embed_privacy_opt_out_subline`
-
-Since 1.2.0
+## `embed_privacy_opt_out_subline` <Badge type="info" text="Since 1.2.0" />
 
 Through the filter `embed_privacy_opt_out_subline` the sublime of the opt-out shortcode can be changed.
 
@@ -603,9 +521,7 @@ int $post\_id The current post ID
 
 Expects a string.
 
-## `embed_privacy_register_fields`
-
-Since 1.2.0
+## `embed_privacy_register_fields` <Badge type="info" text="Since 1.2.0" />
 
 Through the filter `embed_privacy_register_fields` additional fields can be registered.
 
@@ -632,9 +548,7 @@ array The default name list
 
 Expects an array.
 
-## `jetpack_sharing_facebook_app_id`
-
-Since 1.4.5
+## `jetpack_sharing_facebook_app_id` <Badge type="info" text="Since 1.4.5" />
 
 Through the filter `jetpack_sharing_facebook_app_id` the Facebook app ID of Jetpack sharing can be changed.
 

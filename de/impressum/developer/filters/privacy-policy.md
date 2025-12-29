@@ -22,7 +22,7 @@ function my_impressum_privacy_tab_content( $content ) {
 add_filter( 'impressum_privacy_tab_content', 'my_impressum_privacy_tab_content' );
 ```
 
-## `impressum_privacy_has_content`
+## `impressum_privacy_has_content` <Badge type="warning" text="Veraltet seit 2.11.0" />
 
 Über den Filter `impressum_privacy_has_content` kannst du die Prüfung, ob ein Abschnitt einen Inhalt enthält, überschreiben.
 
@@ -33,9 +33,7 @@ string $option\_name Der Optionsname, der getestet wird
 
 Erwartet einen bool’schen Wert.
 
-## `impressum_privacy_is_active_policy`
-
-seit 2.11.0
+## `impressum_privacy_is_active_policy` <Badge type="info" text="Seit 2.11.0" />
 
 Über den Filter `impressum_privacy_is_active_policy` kannst du die Prüfung, ob ein Abschnitt einen Inhalt enthält, überschreiben.
 
@@ -45,9 +43,7 @@ mixed\[\] $options Liste an verfügbaren Optionen und deren Inhalt
 
 Erwartet einen bool’schen Wert.
 
-## `impressum_privacy_policy_content_{$category}`
-
-seit 2.11.0
+## `impressum_privacy_policy_content_{$category}` <Badge type="info" text="Seit 2.11.0" />
 
 Über den Filter `impressum_privacy_policy_content_{$category}` kannst du den Inhalt der Datenschutzerklärung einer bestimmten Kategorie filtern.
 
@@ -106,9 +102,7 @@ Siehe [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
 Siehe [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
-## `impressum_privacy_dpf_content`
-
-seit 2.7.0
+## `impressum_privacy_dpf_content` <Badge type="info" text="Seit 2.7.0" />
 
 Siehe [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
@@ -168,9 +162,7 @@ Siehe [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
 Siehe [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
-## `impressum_privacy_cleantalk_content`
-
-seit 2.7.0
+## `impressum_privacy_cleantalk_content` <Badge type="info" text="Seit 2.7.0" />
 
 Siehe [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
@@ -190,9 +182,7 @@ Siehe [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
 Siehe [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
-## `impressum_privacy_spotify_content`
-
-seit 2.7.0
+## `impressum_privacy_spotify_content` <Badge type="info" text="Seit 2.7.0" />
 
 Siehe [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 

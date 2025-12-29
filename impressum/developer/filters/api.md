@@ -48,9 +48,7 @@ function my_impressum_api_option_name( $option_name, $request ) {
 add_filter( 'impressum_api_option_name', 'my_impressum_api_option_name', 10, 2 );
 ```
 
-## `impressum_api_option_sub_key`
-
-since 2.3.0
+## `impressum_api_option_sub_key` <Badge type="info" text="Since 2.3.0" />
 
 Through the filter `impressum_api_option_sub_key` you can change the name of the key of the option, that should be returned/changed via API.
 

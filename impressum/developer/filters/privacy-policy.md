@@ -22,7 +22,7 @@ function my_impressum_privacy_tab_content( $content ) {
 add_filter( 'impressum_privacy_tab_content', 'my_impressum_privacy_tab_content' );
 ```
 
-## `impressum_privacy_has_content`
+## `impressum_privacy_has_content` <Badge type="warning" text="Deprecated since 2.11.0" />
 
 Through the filter `impressum_privacy_has_content` you can override the check if a policy has content.
 
@@ -33,9 +33,7 @@ string $option\_name The option name to test
 
 Expects a boolean.
 
-## `impressum_privacy_is_active_policy`
-
-since 2.11.0
+## `impressum_privacy_is_active_policy` <Badge type="info" text="Since 2.11.0" />
 
 Through the filter `impressum_privacy_is_active_policy` you can override the check if a policy has content.
 
@@ -45,9 +43,7 @@ mixed\[\] $options Current privacy options
 
 Expects a boolean.
 
-## `impressum_privacy_policy_content_{$category}`
-
-since 2.11.0
+## `impressum_privacy_policy_content_{$category}` <Badge type="info" text="Since 2.11.0" />
 
 Through the filter `impressum_privacy_policy_content_{$category}` you can filter the policy content of a single category.
 
@@ -106,9 +102,7 @@ See [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
 See [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
-## `impressum_privacy_dpf_content`
-
-since 2.7.0
+## `impressum_privacy_dpf_content` <Badge type="info" text="Since 2.7.0" />
 
 See [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
@@ -168,9 +162,7 @@ See [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
 See [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
-## `impressum_privacy_cleantalk_content`
-
-since 2.7.0
+## `impressum_privacy_cleantalk_content` <Badge type="info" text="Since 2.7.0" />
 
 See [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
@@ -190,9 +182,7 @@ See [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
 See [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 
-## `impressum_privacy_spotify_content`
-
-since 2.7.0
+## `impressum_privacy_spotify_content` <Badge type="info" text="Since 2.7.0" />
 
 See [`impressum_privacy_${this}_content`](#impressum_privacy_this_content).
 

@@ -1,8 +1,6 @@
 # Filter
 
-## `embed_privacy_integrations`
-
-Seit 1.10.0
+## `embed_privacy_integrations` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_integrations` können die verfügbaren Integrationen geändert werden, bevor sie initialisiert werden.
 
@@ -11,7 +9,7 @@ array $integrations Liste der Integrationen
 
 Erwartet ein Array.
 
-## `embed_privacy_content`
+## `embed_privacy_content` <Badge type="warning" text="Veraltet seit 1.10.0" />
 
 Durch den Filter `embed_privacy_content` kann der Inhalt des Embed-Overlays geändert werden.
 
@@ -32,7 +30,7 @@ string $footer\_content Der Footer-Inhalt
 
 Erwartet eine Zeichenfolge.
 
-## `embed_privacy_markup`
+## `embed_privacy_markup` <Badge type="warning" text="Veraltet seit 1.10.0" />
 
 Durch den Filter `embed_privacy_markup` kann der gesamte Embed-Overlay-Container geändert werden.
 
@@ -44,9 +42,7 @@ string $embed\_provider Der Embed-Anbieter dieses Embeds
 
 Erwartet eine Zeichenfolge.
 
-## `embed_privacy_has_embed`
-
-Seit 1.3.0
+## `embed_privacy_has_embed` <Badge type="info" text="Seit 1.3.0" />
 
 Durch den Filter `embed_privacy_has_embed` kann der Rückgabewert von `Embed_Privacy::has_embed()` überschrieben werden.
 
@@ -55,9 +51,7 @@ null $has\_embed Der Standardwert
 
 Erwartet etwas anderes als `null`.
 
-## `embed_privacy_provider_list`
-
-Seit 1.10.0
+## `embed_privacy_provider_list` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_provider_list` kann die Liste an Anbietern eines spezifischen Typs überschrieben werden.
 
@@ -68,9 +62,7 @@ array $global\_list Liste aller Anbieter aller Typen
 
 Erwartet ein Array.
 
-## `embed_privacy_provider_name`
-
-Seit 1.10.0
+## `embed_privacy_provider_name` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_provider_name` kann der Name des Embed-Anbieters überschrieben werden.
 
@@ -80,9 +72,7 @@ string $provider Embed-Anbieter
 
 Erwartet eine Zeichenfolge.
 
-## `embed_privacy_overlay_provider`
-
-Seit 1.10.0
+## `embed_privacy_overlay_provider` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_overlay_provider` kann der aktuelle Embed-Anbieter überschrieben werden.
 
@@ -93,15 +83,11 @@ string $url URL des eingebetteten Inhalts
 
 Erwartet ein Objekt vom Typ `\epiphyt\Embed_Privacy\embed\Provider`.
 
-## `embed_privacy_print_assets`
-
-Seit 1.10.0
+## `embed_privacy_print_assets` <Badge type="info" text="Seit 1.10.0" />
 
 Die Action `embed_privacy_print_assets` feuert, nachdem die Assets ausgegeben wurden.
 
-## `embed_privacy_register_assets`
-
-Seit 1.10.0
+## `embed_privacy_register_assets` <Badge type="info" text="Seit 1.10.0" />
 
 Die Action `embed_privacy_register_assets` feuert, nachdem die Assets registriert wurden.
 
@@ -109,9 +95,7 @@ Parameter:
 bool $is\_debug Ob der Debug-Modus aktiv ist  
 string $suffix Ein Dateinamen-Suffix
 
-## `embed_privacy_assets_$embed_provider_lowercase`
-
-Seit 1.4.5
+## `embed_privacy_assets_$embed_provider_lowercase` <Badge type="info" text="Seit 1.4.5" />
 
 Durch den Filter `` `embed_privacy_assets_$embed_provider_lowercase` `` können zusätzliche Assets ausgegeben werden, die benötigt werden, damit das Embed funktioniert.
 
@@ -127,7 +111,7 @@ string $embed\_provider\_lowercase Der aktuelle Embed-Anbieter in Kleinbuchstabe
 
 Erwartet ein Array mit Arrays.
 
-## `embed_privacy_overlay_args`
+## `embed_privacy_overlay_args` <Badge type="warning" text="Veraltet seit 1.10.0" />
 
 Durch den Filter `embed_privacy_overlay_args` können die Argumente vor dem Erstellen eines Overlays geändert werden.
 
@@ -141,9 +125,7 @@ string $output Die Ausgabe vor der Ersetzung
 
 Erwartet ein Array.
 
-## `embed_privacy_overlay_replaced_content`
-
-Seit 1.10.0
+## `embed_privacy_overlay_replaced_content` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_overlay_replaced_content` kann der ersetzte Inhalt geändert werden.
 
@@ -152,9 +134,7 @@ string $content Ersetzter Inhalt
 
 Erwartet eine Zeichenfolge.
 
-## `embed_privacy_overlay_character_replacements`
-
-Seit 1.10.0
+## `embed_privacy_overlay_character_replacements` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_overlay_character_replacements` können spezielle zu ersetzende Zeichen für `DOMDocument` geändert werden.
 
@@ -163,9 +143,7 @@ array $replacements Aktuelle Ersetzungen
 
 Erwartet ein assoziatives Array.
 
-## `embed_privacy_template_attributes`
-
-Seit 1.10.0
+## `embed_privacy_template_attributes` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_template_attributes` können die Attribute für das Embed-Template geändert werden.
 
@@ -176,9 +154,7 @@ string $output Die Ausgabe vor der Ersetzung
 
 Erwartet ein Array.
 
-## `embed_privacy_before_template_output`
-
-Seit 1.10.0
+## `embed_privacy_before_template_output` <Badge type="info" text="Seit 1.10.0" />
 
 Die Action `embed_privacy_before_template_output` feuert, bevor das Template ausgegeben wird.
 
@@ -187,9 +163,7 @@ Parameter:
 \\epiphyt\\Embed\_Privacy\\embed\\Style $style Das Overlay-Style-Objekt  
 array $attributes Zusätzliche Attribute
 
-## `embed_privacy_template_content`
-
-Seit 1.10.0
+## `embed_privacy_template_content` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_template_content` kann der Inhalt eines Overlay-Templates geändert werden.
 
@@ -199,9 +173,7 @@ string $provider Der Embed-Anbieter dieses Embeds
 
 Erwartet eine Zeichenfolge.
 
-## `embed_privacy_template_markup`
-
-Seit 1.10.0
+## `embed_privacy_template_markup` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_template_content` kann das Markup eines Overlay-Templates geändert werden.
 
@@ -211,9 +183,7 @@ string $markup Das Markup
 
 Erwartet eine Zeichenfolge.
 
-## `embed_privacy_theme_content_width`
-
-Seit 1.10.0
+## `embed_privacy_theme_content_width` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_theme_content_width` kann die Inhaltsbereite des Themes, die für die Berechnung des korrekten Seitenverhältnisses verwendet wird, geändert werden.
 
@@ -222,9 +192,7 @@ int $content\_width Aktuelle Inhaltsbreite
 
 Erwartet eine ganze Zahl.
 
-## `embed_privacy_background_path_$embed_provider_lowercase`
-
-Seit 1.1.0
+## `embed_privacy_background_path_$embed_provider_lowercase` <Badge type="info" text="Seit 1.1.0" />
 
 Durch den Filter `embed_privacy_background_path_$embed_provider_lowercase` kann der Pfad des Hintergrundbilds des Overlays geändert werden.
 
@@ -234,9 +202,7 @@ string $embed\_provider\_lowercase Der aktuelle Embed-Anbieter in Kleinbuchstabe
 
 Erwartet eine Zeichenfolge zu einem gültigen Pfad eines Hintergrundbilds.
 
-## `embed_privacy_background_url_$embed_provider_lowercase`
-
-Seit 1.1.0
+## `embed_privacy_background_url_$embed_provider_lowercase` <Badge type="info" text="Seit 1.1.0" />
 
 Durch den Filter `embed_privacy_background_url_$embed_provider_lowercase` kann die URL des Hintergrundbilds des Overlays geändert werden.
 
@@ -266,9 +232,7 @@ string $embed\_provider\_lowercase Der aktuelle Embed-Anbieter in Kleinbuchstabe
 
 Erwartet eine Zeichenfolge zu einer gültigen URL eines Logos.
 
-## `embed_privacy_thumbnail_checked_orphaned`
-
-Seit 1.7.0
+## `embed_privacy_thumbnail_checked_orphaned` <Badge type="info" text="Seit 1.7.0" />
 
 Die Action `embed_privacy_thumbnail_checked_orphaned` feuert, nachdem verweiste Daten für einen Anbieter überprüft und gegebenenfalls gelöscht wurden.
 
@@ -283,9 +247,7 @@ string $meta\_key Der Vorschaubild-Metadatenschlüssel
 WP\_Post $post Das Beitragsobjekt  
 int $post\_id Die Beitrags-ID
 
-## `embed_privacy_thumbnail_data_filename`
-
-Seit 1.7.0
+## `embed_privacy_thumbnail_data_filename` <Badge type="info" text="Seit 1.7.0" />
 
 Durch den Filter `embed_privacy_thumbnail_data_filename` kann der Vorschaubild-Dateiname geändert werden.
 
@@ -296,9 +258,7 @@ string $url Die Embed-URL
 
 Erwartet eine Zeichenfolge mit einem Vorschaubild-Dateinamen.
 
-## `embed_privacy_thumbnail_data_id`
-
-Seit 1.7.0
+## `embed_privacy_thumbnail_data_id` <Badge type="info" text="Seit 1.7.0" />
 
 Durch den Filter `embed_privacy_thumbnail_data_id` kann die Vorschaubild-ID geändert werden.
 
@@ -309,9 +269,7 @@ string $url Die Embed-URL
 
 Erwartet eine Zeichenfolge mit einer Vorschaubild-ID.
 
-## `embed_privacy_thumbnail_data_path`
-
-Seit 1.7.0
+## `embed_privacy_thumbnail_data_path` <Badge type="info" text="Seit 1.7.0" />
 
 Durch den Filter `embed_privacy_thumbnail_data_path` kann der Vorschaubild-Pfad geändert werden.
 
@@ -322,9 +280,7 @@ string $url Die Embed-URL
 
 Erwartet eine Zeichenfolge mit einem Vorschaubild-Pfad.
 
-## `embed_privacy_thumbnail_data_url`
-
-Seit 1.7.0
+## `embed_privacy_thumbnail_data_url` <Badge type="info" text="Seit 1.7.0" />
 
 Durch den Filter `embed_privacy_thumbnail_data_url` kann die Vorschaubild-URL geändert werden.
 
@@ -335,9 +291,7 @@ string $url Die Embed-URL
 
 Erwartet eine Zeichenfolge mit einer Vorschaubild-URL.
 
-## `embed_privacy_thumbnail_get_from_provider`
-
-Seit 1.7.0
+## `embed_privacy_thumbnail_get_from_provider` <Badge type="info" text="Seit 1.7.0" />
 
 Die Action `embed_privacy_thumbnail_get_from_provider` feuert, nachdem Vorschaubild-Daten verarbeitet wurden.
 
@@ -346,9 +300,7 @@ string $return Das zurückgegebene oEmbed-HTML
 object $data Ein Datenobjektergebnis von einem oEmbed-Anbieter  
 string $url Die URL des eingebetteten Inhalts
 
-## `embed_privacy_thumbnail_path_$embed_provider_lowercase`
-
-Seit 1.1.0
+## `embed_privacy_thumbnail_path_$embed_provider_lowercase` <Badge type="info" text="Seit 1.1.0" />
 
 Durch den Filter `embed_privacy_thumbnail_path_$embed_provider_lowercase` kann der Pfad des Vorschaubilds des Overlays geändert werden.
 
@@ -358,9 +310,7 @@ string $embed\_provider\_lowercase Der aktuelle Embed-Anbieter in Kleinbuchstabe
 
 Erwartet eine Zeichenfolge zu einem gültigen Pfad eines Vorschaubild.
 
-## `embed_privacy_thumbnail_supported_provider_names`
-
-Seit 1.7.0
+## `embed_privacy_thumbnail_supported_provider_names` <Badge type="info" text="Seit 1.7.0" />
 
 Durch den Filter `embed_privacy_thumbnail_supported_provider_names` kann der interne Name unterstützter Vorschaubild-Embed-Anbieter geändert werden.
 
@@ -369,9 +319,7 @@ array $supported\_providers Aktuell unterstützte Anbieternamen
 
 Erwartet ein Array mit Vorschaubild-Anbieternamen.
 
-## `embed_privacy_thumbnail_providers`
-
-Seit 1.9.0
+## `embed_privacy_thumbnail_providers` <Badge type="info" text="Seit 1.9.0" />
 
 Durch den Filter `embed_privacy_thumbnail_providers` können die registrierten Vorschaubild-Anbieter geändert werden.
 
@@ -380,7 +328,7 @@ Thumbnail\_Provider\[\] $supported\_providers Aktuell unterstützte Anbieter
 
 Erwartet ein Array mit Vorschaubild-Anbieterklassen.
 
-## `embed_privacy_pre_thumbnail_delete_orphaned_delete`
+## `embed_privacy_pre_thumbnail_delete_orphaned_delete` <Badge type="warning" text="Veraltet seit 1.10.0" />
 
 Durch die Action `embed_privacy_pre_thumbnail_check_orphaned_delete` kann die Entfernung verwaister Vorschaubilder deaktiviert werden.
 
@@ -392,9 +340,7 @@ string $url Die Vorschaubild-URL
 int $post\_id Die Beitrags-ID  
 string $provider Der Embed-Anbieter-Name
 
-## `embed_privacy_thumbnail_delete_orphaned`
-
-Seit 1.10.0
+## `embed_privacy_thumbnail_delete_orphaned` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_thumbnail_delete_orphaned` geändert werden, ob ein Vorschaubild entfernt werden soll.
 
@@ -407,9 +353,7 @@ string $provider Der Embed-Anbieter
 
 Erwartet einen booleschen Wert.
 
-## `embed_privacy_thumbnail_url_$embed_provider_lowercase`
-
-Seit 1.1.0
+## `embed_privacy_thumbnail_url_$embed_provider_lowercase` <Badge type="info" text="Seit 1.1.0" />
 
 Durch den Filter `embed_privacy_thumbnail_url_$embed_provider_lowercase` kann die URL des Vorschaubilds des Overlays geändert werden.
 
@@ -419,9 +363,7 @@ string $embed\_provider\_lowercase Der aktuelle Embed-Anbieter in Kleinbuchstabe
 
 Erwartet eine Zeichenfolge zu einer gültigen URL eines Thumbnails.
 
-## `embed_privacy_ignore_embed`
-
-Seit 1.9.0
+## `embed_privacy_ignore_embed` <Badge type="info" text="Seit 1.9.0" />
 
 Durch den Filter `embed_privacy_ignore_embed` kann die Verarbeitung einzelner Embeds deaktiviert werden.
 
@@ -434,9 +376,7 @@ array $args Zusätzliche Argumente
 
 Erwartet einen booleschen Wert.
 
-## `embed_privacy_is_ignored_request`
-
-Seit 1.10.0
+## `embed_privacy_is_ignored_request` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_is_ignored_request` eine komplette Anfrage ignoriert werden.
 
@@ -445,9 +385,7 @@ bool $is\_ignored\_request Ob die Anfrage aktuell ignoriert wird
 
 Erwartet einen booleschen Wert.
 
-## `embed_privacy_ignore_unknown_providers`
-
-Seit 1.5.0
+## `embed_privacy_ignore_unknown_providers` <Badge type="info" text="Seit 1.5.0" />
 
 Durch den Filter `embed_privacy_ignore_unknown_providers` kann die Verarbeitung von Embeds unbekannter Anbieter deaktiviert werden.
 
@@ -457,9 +395,7 @@ string $content Der Original-Inhalt
 
 Erwartet einen booleschen Wert.
 
-## `embed_privacy_ignored_shortcodes`
-
-Seit 1.6.0
+## `embed_privacy_ignored_shortcodes` <Badge type="info" text="Seit 1.6.0" />
 
 Durch den Filter `embed_privacy_ignored_shortcodes` können Shortcodes von der Ersetzung ausgenommen werden.
 
@@ -468,9 +404,7 @@ string\[\] $ignored\_shortcodes Aktuelle Liste ignorierter Shortcodes
 
 Erwartet ein Array.
 
-## `embed_privacy_should_replace_match`
-
-Seit 1.10.9
+## `embed_privacy_should_replace_match` <Badge type="info" text="Seit 1.10.9" />
 
 Durch den Filter `embed_privacy_should_replace_match` kann gesteuert werden, ob die aktuelle Übereinstimmung tatsächlich ersetzt werden soll.
 
@@ -482,22 +416,18 @@ mixed\[\] $attributes Embed-Attribute
 
 Erwartet einen booleschen Wert.
 
-## `embed_privacy_dynamic_style_properties`
+## `embed_privacy_dynamic_style_properties` <Badge type="warning" text="Veraltet seit 1.10.0" />
 
 Durch den Filter `` `embed_privacy_dynamic_style_properties` `` können die Eigenschaften des dynamischen Embed-Stils einer Seite geändert werden.
-
-Veraltet seit 1.10.0.
 
 Parameters:  
 array $style\_properties Stileigenschaften-Array
 
 Erwartet ein Array.
 
-## `embed_privacy_dynamic_style`
+## `embed_privacy_dynamic_style` <Badge type="warning" text="Veraltet seit 1.10.0" />
 
 Durch den Filter `embed_privacy_dynamic_style` kann der dynamische Embed-Stil einer Seite geändert werden.
-
-Veraltet seit 1.10.0
 
 Parameter:  
 string $style Generierter Stil  
@@ -505,7 +435,7 @@ array $style\_properties Stil-Eigenschaften-Array
 
 Erwartet eine Zeichenfolge.
 
-## `embed_privacy_matcher_elements`
+## `embed_privacy_matcher_elements` <Badge type="warning" text="Veraltet seit 1.10.0" />
 
 Durch den Filter `embed_privacy_matcher_elements` können die HTML-Elemente, die den regulären Ausdruck für individuelle Embed-Anbieter erweitern, geändert werden.
 
@@ -517,9 +447,7 @@ string $embed\_provider\_lowercase Der aktuelle Embed-Anbieter in Kleinbuchstabe
 
 Erwartet ein Array.
 
-## `embed_privacy_replacer_matcher_elements`
-
-Seit 1.10.0
+## `embed_privacy_replacer_matcher_elements` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_replacer_matcher_elements` können die HTML-Elemente, die den regulären Ausdruck für individuelle Embed-Anbieter erweitern, geändert werden.
 
@@ -529,9 +457,7 @@ string\[\] $allowed\_tags Die erlaubten Tags
 
 Erwartet ein Array.
 
-## `embed_privacy_replacer_matcher_elements`
-
-Seit 1.10.0
+## `embed_privacy_replacer_matcher_elements` <Badge type="info" text="Seit 1.10.0" />
 
 Durch den Filter `embed_privacy_replacer_matcher_elements` können die HTML-Elemente, die den regulären Ausdruck für individuelle Embed-Anbieter erweitern, geändert werden.
 
@@ -541,9 +467,7 @@ string\[\] $allowed\_tags Die erlaubten Tags
 
 Erwartet ein Array.
 
-## `embed_privacy_custom_embed_replacement`
-
-Seit 1.11.0
+## `embed_privacy_custom_embed_replacement` <Badge type="info" text="Seit 1.11.0" />
 
 Durch den Filter `embed_privacy_custom_embed_replacement` kann eine individuelle Ersetzung für Embeds zurückgegeben werden, bevor die Ersetzung durch Embed Privacy stattfindet.
 
@@ -554,9 +478,7 @@ string $tag Der Shortcode-Tag, wenn über do\_shortcode aufgerufen
 
 Erwartet eine Zeichenfolge.
 
-## `embed_privacy_custom_oembed_replacement`
-
-Seit 1.11.0
+## `embed_privacy_custom_oembed_replacement` <Badge type="info" text="Seit 1.11.0" />
 
 Durch den Filter `embed_privacy_custom_oembed_replacement` kann eine individuelle Ersetzung für oEmbeds zurückgegeben werden, bevor die Ersetzung durch Embed Privacy stattfindet.
 
@@ -569,9 +491,7 @@ array $attributes Zusätzliche Attribute des Embeds
 
 Erwartet eine Zeichenfolge.
 
-## `embed_privacy_widget_output`
-
-Seit 1.1.0
+## `embed_privacy_widget_output` <Badge type="info" text="Seit 1.1.0" />
 
 Durch den Filter `embed_privacy_widget_output` kann die Ausgabe eines Widgets geändert werden.
 
@@ -582,9 +502,7 @@ string $sidebar\_id Die aktuelle Seitenleisten-ID
 
 Erwartet eine Zeichenfolge.
 
-## `embed_privacy_opt_out_headline`
-
-Seit 1.2.0
+## `embed_privacy_opt_out_headline` <Badge type="info" text="Seit 1.2.0" />
 
 Durch den Filter `embed_privacy_opt_out_headline` kann die Überschrift des Opt-out-Shortcodes geändert werden.
 
@@ -594,9 +512,7 @@ array $attributes Shortcode-Attribute
 
 Erwartet eine Zeichenfolge.
 
-## `embed_privacy_opt_out_subline`
-
-Seit 1.2.0
+## `embed_privacy_opt_out_subline` <Badge type="info" text="Seit 1.2.0" />
 
 Durch den Filter `embed_privacy_opt_out_subline` kann die Unterüberschrift des Opt-out-Shortcodes geändert werden.
 
@@ -615,9 +531,7 @@ int $post\_id Die aktuelle Beitrags-ID
 
 Erwartet eine Zeichenfolge.
 
-## `embed_privacy_register_fields`
-
-Seit 1.2.0
+## `embed_privacy_register_fields` <Badge type="info" text="Seit 1.2.0" />
 
 Durch den Filter `embed_privacy_register_fields` können zusätzliche Felder registriert werden.
 
@@ -644,9 +558,7 @@ array Die Standard-Namenliste
 
 Erwartet ein Array.
 
-## `jetpack_sharing_facebook_app_id`
-
-Seit 1.4.5
+## `jetpack_sharing_facebook_app_id` <Badge type="info" text="Seit 1.4.5" />
 
 Durch den Filter `jetpack_sharing_facebook_app_id` kann die Facebook-App-ID des Jetpack-Teilens geändert werden.
 

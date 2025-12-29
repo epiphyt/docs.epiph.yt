@@ -115,9 +115,7 @@ curl -d "country=deu&legal_entity=self" -H "Content-Type: application/x-www-form
 
 As response you’ll receive a JSON string with the stored imprint data.
 
-## POST `impressum-plus/v1/titles`
-
-since 2.3.0
+## POST `impressum-plus/v1/titles` <Badge type="info" text="Since 2.3.0" />
 
 To change imprint titles via API, the URL structure is the following:
 

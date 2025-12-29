@@ -11,9 +11,7 @@ You can uploaded the downloaded `.zip` file directly in your WordPress backend. 
 To install the downloaded `.zip` file through (S)FTP, you first need to extract it and upload the files and folders with an FTP program of your choice onto your website.  
 After the upload, they should be found in `wp-content/plugins/impressum-plus` or `wp-content/plugins/impressum`.
 
-## Installation via Composer
-
-since 2.11.0
+## Installation via Composer <Badge type="info" text="Since 2.11.0" />
 
 Composer is a package manager for PHP projects, which can be used in your own PHP projects to add Impressum Plus as a required package.
 

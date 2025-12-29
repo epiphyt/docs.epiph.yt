@@ -115,9 +115,7 @@ curl -d "country=deu&legal_entity=self" -H "Content-Type: application/x-www-form
 
 Als Rückgabewert erhält man einen JSON-String mit allen gespeicherten Impressum-Daten.
 
-## POST `impressum-plus/v1/titles`
-
-seit 2.3.0
+## POST `impressum-plus/v1/titles` <Badge type="info" text="Seit 2.3.0" />
 
 Um Feldtitel der Impressum-Daten per API zu ändern, lautet die URL-Struktur:
 
