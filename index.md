@@ -13,7 +13,7 @@ features:
     icon: { src: '/images/impressum-plus-icon.svg' }
   - title: Form Block Pro and Form Block
     details: Documentation of the block editor friendly form plugins
-    link: https://formblock.pro/en/documentation/
+    link: /form-block/
     icon: { src: '/images/form-block-pro-icon.svg' }
   - title: Embed Privacy
     details: Documentation of the 2 click solution for embeds

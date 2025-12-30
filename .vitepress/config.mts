@@ -147,6 +147,44 @@ export default defineConfig({
           ]
         },
       ],
+      '/de/form-block/': [
+        {
+          text: 'Form Block (Pro)',
+          items: [
+            { text: 'Installation', link: '/de/form-block/installation' },
+            {
+              text: 'Erste Schritte',
+              link: '/de/form-block/getting-started',
+              items: [
+                { text: 'Formularelemente', link: '/de/form-block/getting-started/form-elements' },
+                { text: 'Formularübermittlungen', link: '/de/form-block/getting-started/form-submissions' },
+                { text: 'Feldabhängigkeiten', link: '/de/form-block/getting-started/field-dependencies' },
+              ],
+            },
+            { text: 'Einstellungen', link: '/de/form-block/settings' },
+            { text: 'Barrierefreiheit', link: '/de/form-block/accessibility' },
+            { text: 'Systemanforderungen', link: '/de/form-block/system-requirements' },
+            { text: 'Änderungsprotokoll', link: '/de/form-block/changelog' },
+            { text: 'Lizenz', link: '/de/form-block/license' },
+            { text: 'Wechsel auf Form Block Pro', link: '/de/form-block/switch' }
+          ]
+        },
+        {
+          text: 'Entwickler',
+          items: [
+            { text: 'Filter', link: '/de/form-block/developer/filters' },
+            { text: 'Block-Filter', link: '/de/form-block/developer/block-filters' },
+          ]
+        },
+        {
+          text: 'API',
+          items: [
+            { text: 'Authentifizierung', link: '/de/form-block/api/authentication' },
+            { text: 'Struktur', link: '/de/form-block/api/structure' },
+            { text: 'Formularübermittlungen', link: '/de/form-block/api/submission' },
+          ]
+        },
+      ],
       '/de/impressum/': [
         {
           text: 'Impressum (Plus)',
@@ -201,6 +239,70 @@ export default defineConfig({
           ]
         }
       ],
+      '/embed-privacy/': [
+        {
+          text: 'Embed Privacy',
+          items: [
+            { text: 'Installation', link: '/embed-privacy/installation' },
+            {
+              text: 'Getting started',
+              link: '/embed-privacy/getting-started',
+              items: [
+                { text: 'Settings', link: '/embed-privacy/settings' },
+                { text: 'Manage embed providers', link: '/embed-privacy/manage-providers' },
+              ],
+            },
+            { text: 'System requirements', link: '/embed-privacy/system-requirements' },
+            { text: 'Changelog', link: '/embed-privacy/changelog' },
+          ]
+        },
+        {
+          text: 'Developer',
+          items: [
+            { text: 'Using in a plugin', link: '/embed-privacy/developer/using-in-a-plugin' },
+            { text: 'Thumbnail provider', link: '/embed-privacy/developer/thumbnail-provider' },
+            { text: 'Filters', link: '/embed-privacy/developer/filters' },
+          ]
+        },
+      ],
+      '/form-block/': [
+        {
+          text: 'Form Block (Pro)',
+          items: [
+            { text: 'Installation', link: '/form-block/installation' },
+            {
+              text: 'Getting started',
+              link: '/form-block/getting-started',
+              items: [
+                { text: 'Form elements', link: '/form-block/getting-started/form-elements' },
+                { text: 'Form submissions', link: '/form-block/getting-started/form-submissions' },
+                { text: 'Field dependencies', link: '/form-block/getting-started/field-dependencies' },
+              ],
+            },
+            { text: 'Settings', link: '/form-block/settings' },
+            { text: 'Accessibility', link: '/form-block/accessibility' },
+            { text: 'System requirements', link: '/form-block/system-requirements' },
+            { text: 'Changelog', link: '/form-block/changelog' },
+            { text: 'License', link: '/form-block/license' },
+            { text: 'Switch to Form Block Pro', link: '/form-block/switch' }
+          ]
+        },
+        {
+          text: 'Developer',
+          items: [
+            { text: 'Filters', link: '/form-block/developer/filters' },
+            { text: 'Block filters', link: '/form-block/developer/block-filters' },
+          ]
+        },
+        {
+          text: 'API',
+          items: [
+            { text: 'Authentication', link: '/form-block/api/authentication' },
+            { text: 'Structure', link: '/form-block/api/structure' },
+            { text: 'Submission', link: '/form-block/api/submission' },
+          ]
+        },
+      ],
       '/impressum/': [
         {
           text: 'Impressum (Plus)',
@@ -254,32 +356,6 @@ export default defineConfig({
             { text: 'Migration to version 2.0.0', link: '/impressum/developer/migration-2' }
           ]
         }
-      ],
-      '/embed-privacy/': [
-        {
-          text: 'Embed Privacy',
-          items: [
-            { text: 'Installation', link: '/embed-privacy/installation' },
-            {
-              text: 'Getting started',
-              link: '/embed-privacy/getting-started',
-              items: [
-                { text: 'Settings', link: '/embed-privacy/settings' },
-                { text: 'Manage embed providers', link: '/embed-privacy/manage-providers' },
-              ],
-            },
-            { text: 'System requirements', link: '/embed-privacy/system-requirements' },
-            { text: 'Changelog', link: '/embed-privacy/changelog' },
-          ]
-        },
-        {
-          text: 'Developer',
-          items: [
-            { text: 'Using in a plugin', link: '/embed-privacy/developer/using-in-a-plugin' },
-            { text: 'Thumbnail provider', link: '/embed-privacy/developer/thumbnail-provider' },
-            { text: 'Filters', link: '/embed-privacy/developer/filters' },
-          ]
-        },
       ],
     },
     siteTitle: 'Documentations',
