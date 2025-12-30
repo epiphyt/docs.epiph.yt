@@ -41,6 +41,11 @@
 	width: 324px;
 }
 
+/* see: https://github.com/vuejs/vitepress/issues/5070 */
+.VPNav {
+	overflow-x: visible !important;
+}
+
 .box:has(.coming-soon) {
 	position: relative;
 }
