@@ -5,6 +5,24 @@ export default defineConfig({
   lang: 'en-US',
   title: 'Epiphyt Documentations',
   description: 'A collection of product documentations from Epiphyt',
+  head: [
+    [
+      'link',
+      { rel: 'apple-touch-icon', href: '/images/apple-touch-icon-180x180.png' }
+    ],
+    [
+      'link',
+      { rel: 'icon', href: '/images/favicon.ico' }
+    ],
+    [
+      'link',
+      { rel: 'icon', href: '/images/apple-touch-icon-32x32.png', sizes: '32x32' }
+    ],
+    [
+      'link',
+      { rel: 'icon', href: '/images/apple-touch-icon-192x192.png', sizes: '192x192' }
+    ],
+  ],
   locales: {
     root: {
       label: 'English',
