@@ -29,6 +29,10 @@
 	}
 }
 
+[class*='DocSearch'] {
+	--docsearch-search-button-background: var(--vp-c-bg-alt);
+}
+
 .VPDoc .aside {
 	max-width: 350px;
 }
