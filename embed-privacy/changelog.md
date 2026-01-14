@@ -1,21 +1,31 @@
 # Changelog
 
-## 1.11.4
+## Version 1.12.0 <Badge type="info" text="January 13, 2026" />
+
+* Added: Allow handling dynamic content (in combination with the setting “Force script loading”)
+* Improved: Performance for content with many blocks
+* Improved: Overall performance through various caching mechanisms
+* Changed: Renamed tweets to X posts
+* Fixed: Default English descriptions are now automatically translated as soon as a translation is available, if it's missing during installation
+* Fixed: Handling multiple Instagram/Facebook posts within the same content
+* Fixed: Fatal error in combination with Sugar Calendar Lite and Elementor
+
+## Version 1.11.4 <Badge type="info" text="November 3, 2025" />
 
 * Fixed: Fatal error in WordPress versions lower than 6.7 due to a missing function
 
-## 1.11.3
+## Version 1.11.3 <Badge type="info" text="October 6, 2025" />
 
 * Fixed: Handling youtu.be links in Elementor
 * Fixed: Remove units from `height` and `width` attributes to correctly calculate the aspect ratio
 
-## 1.11.2
+## Version 1.11.2 <Badge type="info" text="August 24, 2025" />
 
 * Improved: YouTube support in Elementor (settings are now supported as well as youtu.be domain, styling has been improved)
 * Fixed: Replacing embeds on blog page
 * Fixed: Embed in feeds now display only a link to the content instead of a non-working overlay
 
-## 1.11.1
+## Version 1.11.1 <Badge type="info" text="June 23, 2025" />
 
 * Improved: Class autoloading performance
 * Improved: Allow overriding `EPI_EMBED_PRIVACY_BASE` constant
@@ -24,7 +34,7 @@
 * Fixed: Don't use deprecated parameter of Style class 
 * Fixed: Erroneous overlay replacements in certain circumstances
 
-## 1.11.0
+## Version 1.11.0 <Badge type="info" text="May 13, 2025" />
 
 * Added: Support for embed provider Bluesky
 * Added: Support for embed provider Canva
@@ -39,23 +49,23 @@
 * Fixed: Support for Embed Privacy being installed via MU plugin directory
 * Developers: [Migration guide](https://epiph.yt/en/embed-privacy/documentation/migration-to-version-1-11-0/)
 
-## 1.10.10
+## Version 1.10.10 <Badge type="info" text="February 24, 2025" />
 
 * Fixed: Loading Google Maps in Divi
 * Fixed: Replacing HTML elements with regular expressions
 * Fixed: Falsely-negative detection of ActivityPub usage
 
-## 1.10.9
+## Version 1.10.9 <Badge type="info" text="January 4, 2025" />
 
 * Fixed: Recognition for Twitter/X embeds
 * Fixed: Output of the Instagram Feed plugin is replaced with an faulty overlay
 * Fixed: Displaying embeds in Divi’s dynamic content
 
-## 1.10.8
+## Version 1.10.8 <Badge type="info" text="December 3, 2024" />
 
 * Fixed: An undefined variable in the shortcode output
 
-## 1.10.7
+## Version 1.10.7 <Badge type="info" text="December 2, 2024" />
 
 * Fixed: Custom background images and logos
 * Fixed: Direct link to YouTube videos
@@ -65,12 +75,12 @@
 * Fixed: Replacing URLs ending with x.com
 * Fixed: Displaying always active providers
 
-## 1.10.6
+## Version 1.10.6 <Badge type="info" text="October 4, 2024" />
 
 * Fixed: Detection for unknown embeds
 * Fixed: Detection for Maps Marker Pro
 
-## 1.10.5
+## Version 1.10.5 <Badge type="info" text="September 27, 2024" />
 
 * Improved: Renamed Twitter to X
 * Fixed: Check for matching provider
@@ -78,27 +88,27 @@
 * Fixed: Hiding providers in the opt-out shortcodes if desired
 * Fixed: Potential PHP warning
 
-## 1.10.4
+## Version 1.10.4 <Badge type="info" text="September 16, 2024" />
 
 * Fixed: Blocking embeds appearing in the same content after a disabled/always active provider
 * Fixed: Cookie lifetime
 
-## 1.10.3
+## Version 1.10.3 <Badge type="info" text="September 10, 2024" />
 
 * Fixed: Multiple replacements of the same embed
 * Fixed: Replacing unknown embeds
 * Fixed: Always return an embed provider via `Providers::get_by_name()`
 * Fixed: Warning about potentially non-available asset version
 
-## 1.10.2
+## Version 1.10.2 <Badge type="info" text="September 9, 2024" />
 
 * Fixed: Potential fatal error for missing check of the availability of the function `is_plugin_active`
 
-## 1.10.1
+## Version 1.10.1 <Badge type="info" text="September 9, 2024" />
 
 * Fixed: Set correct "Tested up to" to WordPress 6.6
 
-## 1.10.0
+## Version 1.10.0 <Badge type="info" text="September 9, 2024" />
 
 * Added: Thumbnail support for Polylang
 * Added: Filter to prevent orphan thumbnail deletion
@@ -109,19 +119,19 @@
 * For developers: More notices about deprecated code
 * For developers: Complete rework of the plugin's code (with complete backwards compatibility). See [the migration guide](https://epiph.yt/en/embed-privacy/documentation/migration-to-version-1-10-0/) for more information
 
-## 1.9.2
+## Version 1.9.2 <Badge type="info" text="May 31, 2024" />
 
 * Improve the text for screen readers upon activating the embedded content
 * Fixed compatibility with other widget plugins
 * Fixed handling of videos in Divi
 
-## 1.9.1
+## Version 1.9.1 <Badge type="info" text="April 19, 2024" />
 
 * Fixed an error while uninstalling the plugin
 * Fixed aspect ratio of embeds embedded via Divi
 * Fixed spelling of "SlideShare"
 
-## 1.9.0
+## Version 1.9.0 <Badge type="info" text="April 17, 2024" />
 
 * Added support for thumbnails for WordPress TV
 * Added filter to filter embed arguments
@@ -131,18 +141,18 @@
 * Fixed certain fields deleted after changing embed provider to draft
 * Fixed URL encoding after replacements
 
-## 1.8.1
+## Version 1.8.1 <Badge type="info" text="November 1, 2023" />
 
 * Fixed the output of the opt-out shortcode (thanks wpdabh for reporting)
 
-## 1.8.0
+## Version 1.8.0 <Badge type="info" text="August 8, 2023" />
 
 * Added support for Anghami
 * Added filter to prevent thumbnail orphan deletion
 * Added check for PHP DOM extension
 * Improved loading embed providers
 
-## 1.7.3
+## Version 1.7.3 <Badge type="info" text="July 17, 2023" />
 
 * Improved compatibility with Advanced Custom Fields
 * Fixed compatibility with PHP 8.2
@@ -158,18 +168,18 @@
 * Fixed thumbnail positioning (it's now horizontally and vertically centered)
 * Fixed HTML output of the opt-out shortcode
 
-## 1.7.2
+## Version 1.7.2 <Badge type="info" text="April 30, 2023" />
 
 * Fixed getting the URL of video shortcodes properly to not block content from the same (sub)domain
 
-## 1.7.1
+## Version 1.7.1 <Badge type="info" text="April 19, 2023" />
 
 * Improved Google Maps height in Kadence Blocks
 * Fixed a JavaScript error if jQuery is not initialized
 * Fixed potential PHP warning regarding an undefined variable
 * Fixed potential PHP warning regarding an undefined hostname while retrieving the embed URL
 
-## 1.7.0
+## Version 1.7.0 <Badge type="info" text="April 7, 2023" />
 
 * Added support for crowdsignal.net
 * Added support for classic video shortcode/widget
@@ -178,32 +188,32 @@
 * Fixed hiding thumbnails after embedded content has been enabled
 * Fixed aspect ratio for embeds without proper dimension information
 
-## 1.6.5
+## Version 1.6.5 <Badge type="info" text="January 24, 2023" />
 
 * Fixed aspect ratio for non-default content width themes
 * Fixed handling of the % character
 
-## 1.6.4
+## Version 1.6.4 <Badge type="info" text="January 7, 2023" />
 
 * Fixed aspect ratio for many oEmbeds
 
-## 1.6.3
+## Version 1.6.3 <Badge type="info" text="January 2, 2023" />
 
 * Fixed replacing some oEmbeds
 * Fixed potential problems while retrieving a single embed provider
 * Fixed deleting post metadata of embed providers while editing them via WP-CLI
 
-## 1.6.2
+## Version 1.6.2 <Badge type="info" text="December 18, 2022" />
 
 * Restore displaying YouTube thumbnails
 
-## 1.6.1
+## Version 1.6.1 <Badge type="info" text="December 18, 2022" />
 
 * Updated required WordPress version to 5.0
 * Fixed text links to youtube.com
 * Fixed Twitter embeds
 
-## 1.6.0
+## Version 1.6.0 <Badge type="info" text="December 17, 2022" />
 
 * Added automatic detection of aspect ratio if given by the embed
 * Added ability to work with HTML of regular oEmbed providers
@@ -215,14 +225,14 @@
 * Fixed line-height of custom embeds in Elementor
 * General code improvements
 
-## 1.5.1
+## Version 1.5.1 <Badge type="info" text="November 21, 2022" />
 
 * Fixed storing and displaying video thumbnails from Vimeo that are embedded using the domain player.vimeo.com
 * Fixed unnecessary line breaks within the classic editor
 * Fixed displaying the overlay if an embed of a known embed provider followed an embed of an unknown embed provider
 * Fixed uninstallation issues
 
-## 1.5.0
+## Version 1.5.0 <Badge type="info" text="November 4, 2022" />
 
 * Added support for embed provider Pocket Casts
 * Added support for Maps Marker and Maps Marker Pro
@@ -237,47 +247,47 @@
 * General code improvements
 * Fixed a JavaScript error
 
-## 1.4.8
+## Version 1.4.8 <Badge type="info" text="October 19, 2022" />
 
 * Fixed an issue with always active providers being cached by page caching plugins
 * Fixed printing inline JavaScript only once
 
-## 1.4.7
+## Version 1.4.7 <Badge type="info" text="September 11, 2022" />
 
 * Fixed displaying embeds on mobile devices while using Divi
 * Fixed the output of assets
 * Improved regular expression for Google Maps
 
-## 1.4.6
+## Version 1.4.6 <Badge type="info" text="July 18, 2022" />
 
 * Fixed an issue where JavaScript assets may be missing for the opt-out shortcode
 
-## 1.4.5
+## Version 1.4.5 <Badge type="info" text="June 25, 2022" />
 
 * Fixed an issue with always enable an unknown embed provider
 * Fixed issues with missing JavaScript for Facebook embed of Jetpack
 
-## 1.4.4
+## Version 1.4.4 <Badge type="info" text="March 10, 2022" />
 
 * Fixed a potential encoding issue
 * Fixed issues with Facebook embed of Jetpack
 * Fixed issues with registering assets
 
-## 1.4.3
+## Version 1.4.3 <Badge type="info" text="February 23, 2022" />
 
 * Fixed a problem that prevents embed fields from being stored
 
-## 1.4.2
+## Version 1.4.2 <Badge type="info" text="January 31, 2022" />
 
 * Fixed an expired link during plugin activation and creating a new embed provider
 
-## 1.4.1
+## Version 1.4.1 <Badge type="info" text="January 26, 2022" />
 
 * Fixed invalid HTML by changing the accessibility behavior (it's now a separate button)
 * Fixed potential empty link titles in other locales then English
 * Fixed potential unwanted URL encoding in the content after Embed Privacy replaced an embed
 
-## 1.4.0
+## Version 1.4.0 <Badge type="info" text="January 17, 2022" />
 
 * Added support for Pinterest and Wolfram Cloud
 * Improved migrations to fix duplicate providers or performance problems in multisite installations
@@ -291,19 +301,19 @@
 * Fixed oEmbed provider name if the provider is unknown
 * Fix enqueuing assets for unknown embed providers
 
-## 1.3.6
+## Version 1.3.6 <Badge type="info" text="June 24, 2021" />
 
 * Fixed enabling multiple YouTube videos in Elementor
 * Fixed displaying content if the page contains an always active provider
 
-## 1.3.5
+## Version 1.3.5 <Badge type="info" text="June 10, 2021" />
 
 * Fixed functionality in Elementor
 * Fixed custom embed provider output
 * Fixed replacing content in shortcodes multiple times
 * Fixed checking for theme/template
 
-## 1.3.4
+## Version 1.3.4 <Badge type="info" text="May 30, 2021" />
 
 * Fixed deleted meta fields if you put an embed provider in trash and restore it afterwards
 * Fixed Embed Privacy sometimes trying to replace an embed twice
@@ -312,23 +322,23 @@
 * Fixed always enable YouTube within Divi
 * Fixed overlay line height in Divi
 
-## 1.3.3
+## Version 1.3.3 <Badge type="info" text="April 11, 2021" />
 
 * Improved mobile design for responsive embeds
 * Fixed centering for non-responsive embeds
 * Fixed disabled embed content from preventing interactions with the text below the overlay
 
-## 1.3.2
+## Version 1.3.2 <Badge type="info" text="March 29, 2021" />
 
 * Fixed general activation error
 
-## 1.3.1
+## Version 1.3.1 <Badge type="info" text="March 29, 2021" />
 
 * Fixed a fatal error on uninstallation on non-multisite
 * Fixed activating via WP-CLI
 * Fixed deleting an option on uninstallation
 
-## 1.3.0
+## Version 1.3.0 <Badge type="info" text="March 21, 2021" />
 
 * Added local tweets without overlay
 * Added option to preserve data on uninstall
@@ -344,7 +354,7 @@
 * Fixed network-wide activation
 * Fixed clearing oEmbed cache
 
-## 1.2.2
+## Version 1.2.2 <Badge type="info" text="January 19, 2021" />
 
 * Added a check if a migration is already running
 * Fixed a bug where the page markup could be changed unexpectedly
@@ -353,13 +363,13 @@
 * Excluded local embeds (with the same domain)
 * Fixed Amazon Kindle regex being too greedy
 
-## 1.2.1
+## Version 1.2.1 <Badge type="info" text="January 15, 2021" />
 
 * Fixed a bug where the page markup could be changed unexpectedly
 * Fixed a warning if an embed provider has no regular expressions
 * Improved migrations of embed provider metadata to make sure they have been added to the database
 
-## 1.2.0
+## Version 1.2.0 <Badge type="info" text="January 14, 2021" />
 
 * Added support for managing embeds (add/remove/edit/disable)
 * Added support for caching plugins by adding a JavaScript detection for always active embed providers
@@ -367,21 +377,21 @@
 * Added shortcode `[embed_privacy_opt_out]` to allow users to opt-out/in
 * Fixed responsive design if the embed added an own width
 
-## 1.1.3
+## Version 1.1.3 <Badge type="info" text="December 17, 2020" />
 
 * Changed provider name from Polldaddy to Crowdsignal
 * Removed provider Hulu
 
-## 1.1.2
+## Version 1.1.2 <Badge type="info" text="July 19, 2020" />
 
 * Fixed a possible difference in the used class name of the embed provider in HTML and CSS
 
-## 1.1.1
+## Version 1.1.1 <Badge type="info" text="April 22, 2020" />
 
 * Removed provider CollegeHumor
 * Fixed a bug with the automatic addition of paragraphs
 
-## 1.1.0
+## Version 1.1.0 <Badge type="info" text="February 22, 2020" />
 
 * Added option to allow all embeds by one provider
 * Added provider TikTok, introduced in WordPress 5.4
@@ -397,16 +407,16 @@
 * Fixed some embed providers that use custom z-index, which results in the embedded content being above the overlay
 * Fixed typos
 
-## 1.0.2
+## Version 1.0.2 <Badge type="info" text="November 20, 2018" />
 
 * Improved compatibility with [Autoptimize](https://wordpress.org/plugins/autoptimize/)
 * Improved compatibility with [AMP](https://wordpress.org/plugins/amp/)
 * Fix issue with SlideShare causing wrong (generic) placeholders
 
-## 1.0.1
+## Version 1.0.1 <Badge type="info" text="October 10, 2018" />
 
 * Fixed support for PHP 5.6
 
-## 1.0.0
+## Version 1.0.0 <Badge type="info" text="October 6, 2018" />
 
 * Initial release

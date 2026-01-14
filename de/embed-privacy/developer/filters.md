@@ -467,6 +467,15 @@ string\[\] $allowed\_tags Die erlaubten Tags
 
 Erwartet ein Array.
 
+## `embed_privacy_ignored_blocks` <Badge type="info" text="Seit 1.12.0" />
+
+Durch den Filter `embed_privacy_ignored_blocks` können die ignorierten Blöcke geändert werden.
+
+Parameter:  
+string[] $blocks Liste der ignorierten Blöcke  
+
+Erwartet ein Array.
+
 ## `embed_privacy_custom_embed_replacement` <Badge type="info" text="Seit 1.11.0" />
 
 Durch den Filter `embed_privacy_custom_embed_replacement` kann eine individuelle Ersetzung für Embeds zurückgegeben werden, bevor die Ersetzung durch Embed Privacy stattfindet.

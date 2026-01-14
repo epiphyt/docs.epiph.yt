@@ -457,6 +457,15 @@ string\[\] $allowed\_tags List of allowed tags
 
 Expects an array.
 
+## `embed_privacy_ignored_blocks` <Badge type="info" text="Since 1.12.0" />
+
+Through the filter `embed_privacy_ignored_blocks` the ignored blocks can be changed.
+
+Parameters:
+string[] $blocks List of ignored blocks  
+
+Expects an array.
+
 ## `embed_privacy_custom_embed_replacement` <Badge type="info" text="Since 1.11.0" />
 
 Through the filter `embed_privacy_custom_embed_replacement` a custom replacement for embeds can be returned, short-circuiting the default replacement strategy of Embed Privacy.
