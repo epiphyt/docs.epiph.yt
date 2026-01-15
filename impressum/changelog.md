@@ -1,8 +1,6 @@
 # Changelog
 
-## Version 2.14.3
-
-December 13, 2025
+## Version 2.14.3 <Badge type="info" text="December 13, 2025" />
 
 * Added: Translations for some fields in Czech, Dutch, French and Hungarian
 * Improved: Reliability of updates (download should now be possible even if the last license check was longer ago than the update check)
@@ -13,22 +11,16 @@ December 13, 2025
 * Fixed: Adding missing paragraph closing HTML tag inside the "responsible person" privacy policy section
 * Fixed: Output of the data protection officer email address in the privacy policy
 
-## Version 2.14.2
-
-October 14, 2025
+## Version 2.14.2 <Badge type="info" text="October 14, 2025" />
 
 * Fixed: Certain settings could not be saved
 
-## Version 2.14.1
-
-October 13, 2025
+## Version 2.14.1 <Badge type="info" text="October 13, 2025" />
 
 * Fixed: Some assets in the backend could not be loaded and thus prevented JavaScript functionality
 * Fixed: License verification could fail in certain environments
 
-## Version 2.14.0
-
-October 6, 2025
+## Version 2.14.0 <Badge type="info" text="October 6, 2025" />
 
 * Added: All market surveillance authorities and law titles for all European countries for the accessibility information
 * Added: Support for the legal entity GesbR
@@ -41,41 +33,29 @@ October 6, 2025
 * Improved: The control for the enabled fields in the imprint blocks are now separate checkboxes
 * Removed: “In process of being established“ for the German Gemeinsame Marktüberwachung der Länder für die Barrierefreiheit von Produkten und Dienstleistungen (MLBF)
 
-## Version 2.13.3
-
-June 18, 2025
+## Version 2.13.3 <Badge type="info" text="June 18, 2025" />
 
 * Improved: Added bug fixes from [Impressum 2.1.3](https://wordpress.org/plugins/impressum/#developers)
 
-## Version 2.13.2
-
-June 13, 2025
+## Version 2.13.2 <Badge type="info" text="June 13, 2025" />
 
 * Improved: Added bug fixes from [Impressum 2.1.2](https://wordpress.org/plugins/impressum/#developers)
 
-## Version 2.13.1
-
-June 12, 2025
+## Version 2.13.1 <Badge type="info" text="June 12, 2025" />
 
 * Fixed: Custom field titles are displayed again
 
-## Version 2.13.0
-
-June 9, 2025
+## Version 2.13.0 <Badge type="info" text="June 9, 2025" />
 
 * Added: Accessibility Information generator
 * Fixed: Functionality of the Plus version in the imprint block is restored
 * Fixed: Wrongly displayed fields to enable in the imprint block
 
-## Version 2.12.1
-
-May 22, 2025
+## Version 2.12.1 <Badge type="info" text="May 22, 2025" />
 
 * Fixed: An issue with parts of the translations not being loaded
 
-## Version 2.12.0
-
-May 22, 2025
+## Version 2.12.0 <Badge type="info" text="May 22, 2025" />
 
 * Improved: Validation check for VAT ID and Business ID
 * Improved: Code base
@@ -84,47 +64,33 @@ May 22, 2025
 * Fixed: Accessibility issues while editing field titles on the settings page
 * Fixed: Handling of system data in the API
 
-## Version 2.11.2
-
-April 24, 2025
+## Version 2.11.2 <Badge type="info" text="April 24, 2025" />
 
 * An error has been fixed, which prevented an update if license credentials were managed via PHP constants.
 
-## Version 2.11.1
-
-April 23, 2025
+## Version 2.11.1 <Badge type="info" text="April 23, 2025" />
 
 * An error has been fixed, which was created due to loading translated text too early.
 
-## Version 2.11.0
-
-April 19, 2025
+## Version 2.11.0 <Badge type="info" text="April 19, 2025" />
 
 * Processing the content of the privacy policy has been modernized by rewriting its logic.
 * Support for privacy policy text when using ActivityPub/Webmentions has been added.
 * Support for [installing Impressum Plus via Composer](/impressum/installation.html#installation-via-composer) has been added.
 
-## Version 2.10.3
-
-December 31, 2024
+## Version 2.10.3 <Badge type="info" text="December 31, 2024" />
 
 * We fixed an issue that could prevent automatic updates of other plugins.
 
-## Version 2.10.2
-
-November 28, 2024
+## Version 2.10.2 <Badge type="info" text="November 28, 2024" />
 
 * We fixed an issue that could make updating Impressum Plus nearly impossible.
 
-## Version 2.10.1
-
-November 21, 2024
+## Version 2.10.1 <Badge type="info" text="November 21, 2024" />
 
 * We improved support with WordPress 6.7 by loading the translation files in the `init` hook instead of the `plugins_loaded` hook.
 
-## Version 2.10.0
-
-October 21, 2024
+## Version 2.10.0 <Badge type="info" text="October 21, 2024" />
 
 * We introduced a [WP-CLI integration](/impressum/wp-cli/imprint.md).
 * You can now define the license via [configuration constants](/impressum/license.html) `IMPRESSUM_PLUS_LICENSE_EMAIL` and `IMPRESSUM_PLUS_LICENSE_KEY`.
@@ -133,23 +99,17 @@ October 21, 2024
 * The namespace `\epiphyt\Impressum` is now considered deprecated and has been replaced by `\epiphyt\Impressum_Plus`.
 * We fixed various issues regarding activating/deactivating a license and made the process more reliable.
 
-## Version 2.9.0
-
-July 26, 2024
+## Version 2.9.0 <Badge type="info" text="July 26, 2024" />
 
 * We added the Omnisend newsletter provider.
 * We added the Mollie payment provider.
 
-## Version 2.8.1
-
-May 3, 2024
+## Version 2.8.1 <Badge type="info" text="May 3, 2024" />
 
 * We fixed the check for a valid imprint in the admin notice.
 * We fixed a potential PHP warning if the country has not yet been set.
 
-## Version 2.8.0
-
-April 22, 2024
+## Version 2.8.0 <Badge type="info" text="April 22, 2024" />
 
 * We added an alternative select for a contact form page instead of entering a phone number.
 * We added the “Company purpose” field for Austrians.
@@ -160,15 +120,11 @@ April 22, 2024
 
 You can found more information regarding the biggest new features in [the blog post for this release](https://epiph.yt/en/blog/2024/impressum-plus-2-8-0-released/).
 
-## Version 2.7.1
-
-October 16, 2023
+## Version 2.7.1 <Badge type="info" text="October 16, 2023" />
 
 * We fixed an issue regarding the automatic update mechanism.
 
-## Version 2.7.0
-
-October 15, 2023
+## Version 2.7.0 <Badge type="info" text="October 15, 2023" />
 
 * We added an information regarding to the EU-US Data Privacy Framework (DPF) to the privacy policy.
 * We added support for Spotify.
@@ -177,9 +133,7 @@ October 15, 2023
 * We renamed Facebook Pixel to Meta Pixel.
 * We fixed a potential PHP warning in the system check.
 
-## Version 2.6.1
-
-July 15, 2023
+## Version 2.6.1 <Badge type="info" text="July 15, 2023" />
 
 * We added the missing parts to replace the privacy policy content of Embed Privacy and Google reCAPTCHA.
 * We renamed the newsletter provider Newsletter2Go to Brevo/Sendinblue/Newsletter2Go.
@@ -188,37 +142,27 @@ July 15, 2023
 * We fixed an check in the editor to display an information if there is no imprint field available yet.
 * We fixed displaying the field “Inspecting Authority” in the backend for legal entity GbR.
 
-## Version 2.6.0
-
-June 25, 2023
+## Version 2.6.0 <Badge type="info" text="June 25, 2023" />
 
 * You can now manually override parts of the privacy policy (or the whole privacy policy) under **Settings > Privacy Replacements**.
 * We added the legal entity “eG”.
 
-## Version 2.5.2
-
-June 6, 2023
+## Version 2.5.2 <Badge type="info" text="June 6, 2023" />
 
 * We updated parts of Sendinblue (formerly Newsletter2Go) since they have been renamed to Brevo.
 
-## Version 2.5.1
-
-May 8, 2023
+## Version 2.5.1 <Badge type="info" text="May 8, 2023" />
 
 * We fixed an issue while outputting the imprint.
 
-## Version 2.5.0
-
-May 8, 2023
+## Version 2.5.0 <Badge type="info" text="May 8, 2023" />
 
 * We added the possibility for manual sorting the fields in the block editor.
 * We replaced the the multi select for active fields with a form token field to improve its usability.
 * We updated parts of MailPoet since they have been aquired by Automattic.
 * We fixed a potential error while retrieving the last (faulty) API response.
 
-## Version 2.4.0
-
-March 12, 2023
+## Version 2.4.0 <Badge type="info" text="March 12, 2023" />
 
 * We added an input for a Mastodon profile page.
 * We fixed a deprecation notice in PHP 8.0.
@@ -226,9 +170,7 @@ March 12, 2023
 * We fixed a scrolling issue in Chrome in the active fields select of the imprint block.
 * We improved the code under the hood.
 
-## Version 2.3.0
-
-September 26, 2022
+## Version 2.3.0 <Badge type="info" text="September 26, 2022" />
 
 * We added an option to link to an online dispute resolution as well as giving you the possibility to select whether you participate in an online dispute resolution process.
 * Custom titles can now be retrieved via REST API. Visit the [API documentation](/impressum/api/authentication.html) for more information.
@@ -237,9 +179,7 @@ September 26, 2022
 * We fixed a potential PHP warning for resetting custom titles.
 * We fixed sending imprint data via API to another WordPress installation.
 
-## Version 2.2.0
-
-March 28, 2022
+## Version 2.2.0 <Badge type="info" text="March 28, 2022" />
 
 * We fully translated the privacy policy to English and added proper difference between German formal and informal version.
 * You can now change the field titles to your liking.
@@ -250,22 +190,16 @@ March 28, 2022
 * We fixed an issue where the fields selection in the imprint block may disappear.
 * We fixed an issue that result in using the settings of the primary site in the network options.
 
-## Version 2.1.2
-
-February 7, 2022
+## Version 2.1.2 <Badge type="info" text="February 7, 2022" />
 
 * We changed the name of Facebook Inc. to Meta Platforms Ireland Ltd. according to their company renaming.
 * We fixed an issue that prevents the plugin from work in PHP versions < 7.3.
 
-## Version 2.1.1
-
-August 28, 2021
+## Version 2.1.1 <Badge type="info" text="August 28, 2021" />
 
 * We fixed the system check for Embed Privacy, which would result in an error if you disable Embed Privacy.
 
-## Version 2.1.0
-
-June 25, 2021
+## Version 2.1.0 <Badge type="info" text="June 25, 2021" />
 
 * We added support for additional services in the privacy policy:
   * [Avatar Privacy](https://wordpress.org/plugins/avatar-privacy/)
@@ -284,32 +218,24 @@ June 25, 2021
 * We improved displaying outstanding plugin updates more reliable.
 * We fixed checking for an active license on the plugins page in multisites.
 
-## Version 2.0.3
-
-May 16, 2021
+## Version 2.0.3 <Badge type="info" text="May 16, 2021" />
 
 * We improved formatting of responsible person and data protection officer in privacy policy to be identical.
 * We fixed displaying field “Responsible for content” in the backend of German users.
 
-## Version 2.0.2
-
-March 20, 2021
+## Version 2.0.2 <Badge type="info" text="March 20, 2021" />
 
 * Impressum Plus is now officially tested in WordPress 5.7.
 * Shoutout to Florian Brinkmann for fixing a problem in combination with application passwords.
 * We added prefixes to email and phone of the data protection officer and display them now the same way on both the imprint and privacy policy page.
 * We fixed the filter name for DHL privacy text.
 
-## Version 2.0.1
-
-December 17, 2020
+## Version 2.0.1 <Badge type="info" text="December 17, 2020" />
 
 * We fixed an error while trying to deactivate a license.
 * We fixed an problem where MailPoet won’t be displayed as newsletter provider in the privacy policy.
 
-## Version 2.0.0
-
-December 7, 2020
+## Version 2.0.0 <Badge type="info" text="December 7, 2020" />
 
 * We added Gutenberg Blocks for the imprint and privacy policy.
 * The code structure has been changed and modernized completely. It’s now easier than ever to extend or filter the functionality of Impressum Plus. [Visit the migration guide for more information](https://impressum.plus/en/migration-2-0-0/).
@@ -331,26 +257,20 @@ December 7, 2020
 * We removed the “according to § 55 paragraph 2 RStV” since it doesn’t apply anymore.
 * We fixed the email field output of the data protection officer. It no longer starts with http://.
 
-## Version 1.1.2
-
-June 12, 2020
+## Version 1.1.2 <Badge type="info" text="June 12, 2020" />
 
 * We improved and fixed the sorting of some privacy policy parts.
 * A typo has been fixed in the privacy policy text.
 * A potential error in the privacy policy system check has been fixed.
 
-## Version 1.1.1
-
-May 23, 2020
+## Version 1.1.1 <Badge type="info" text="May 23, 2020" />
 
 * An notice will be displayed on different pages if your license is expired and thus an update is impossible.
 * A typo has been fixed in the privacy policy text.
 * Impressum Plus now also sends PHP information and the used language to the update server.
 * We improved the German translation so that its style fit the WordPress style.
 
-## Version 1.1.0
-
-May 13, 2020
+## Version 1.1.0 <Badge type="info" text="May 13, 2020" />
 
 * Impressum Plus can now also generate a privacy policy.
 * All data from Impressum Plus can now be accessed and written via [REST API](https://impressum.plus/en/documentation/api/). This way you can synchronize your imprint data between multiple websites or use a CRM to create imprints.
@@ -362,9 +282,7 @@ May 13, 2020
 * A problem with a wrong prefix has been fixed for email addresses.
 * Managing of license data has been improved.
 
-## Version 1.0.2
-
-March 9, 2019
+## Version 1.0.2 <Badge type="info" text="March 9, 2019" />
 
 * We removed the check for a VAT ID. This information is based on revenue, not on a legal entity.
 * On uninstalling Impressum Plus the license information will now also be removed.
@@ -377,16 +295,12 @@ March 9, 2019
 * While checking for all required fields network-wide imprint settings had been ignored. This is fixed now.
 * The Impressum Plus icon will now be displayed on the update screen.
 
-## Version 1.0.1
-
-November 1, 2018
+## Version 1.0.1 <Badge type="info" text="November 1, 2018" />
 
 * A PHP error has been fixed if Impressum and Impressum Plus have been enabled simultaneously. Now, Impressum will be disabled automatically.
 * If only defined in the network options, single information could not be displayed via the `sections` parameter.
 * Line breaks will now automatically be transformed to commata on output without markup.
 
-## Version 1.0.0
-
-October 31, 2018
+## Version 1.0.0 <Badge type="info" text="October 31, 2018" />
 
 * First release
