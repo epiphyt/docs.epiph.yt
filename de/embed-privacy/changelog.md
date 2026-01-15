@@ -1,5 +1,9 @@
 # Änderungsprotokoll
 
+## Version 1.12.1 <Badge type="info" text="15. Januar 2026" />
+
+* Behoben: Fataler Fehler während der Aktivierung oder dem Speichern von Embed-Anbietern
+
 ## Version 1.12.0 <Badge type="info" text="13. Januar 2026" />
 
 * Hinzugefügt: Handhabung für dynamischen Inhalt (in Kombination mit der Einstellung „Laden des Skripts erzwingen“)

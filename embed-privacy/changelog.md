@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 1.12.1 <Badge type="info" text="January 15, 2026" />
+
+* Fixed: Fatal error during activation and saving embed providers
+
 ## Version 1.12.0 <Badge type="info" text="January 13, 2026" />
 
 * Added: Allow handling dynamic content (in combination with the setting “Force script loading”)
