@@ -1,5 +1,10 @@
 # Änderungsprotokoll
 
+## Version 1.12.2 <Badge type="info" text="17. Januar 2026" />
+
+* Verbessert: Dynamischer Inhalt wird nun leistungsoptimierter verarbeitet
+* Behoben: Das aktuell fokussierte Element wird nach dem Laden der Seite nicht mehr zum ersten aktiven eingebetteten Inhalt geändert
+
 ## Version 1.12.1 <Badge type="info" text="15. Januar 2026" />
 
 * Behoben: Fataler Fehler während der Aktivierung oder dem Speichern von Embed-Anbietern

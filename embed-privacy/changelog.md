@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.12.2 <Badge type="info" text="January 17, 2026" />
+
+* Improved: Dynamic content is now handled more performant
+* Fixed: The current focussed element is no more changed to the first active embed after page load
+
 ## Version 1.12.1 <Badge type="info" text="January 15, 2026" />
 
 * Fixed: Fatal error during activation and saving embed providers
