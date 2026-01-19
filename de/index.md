@@ -19,9 +19,9 @@ features:
     details: Dokumentation der Zwei-Klick-Lösung für eingebettete Inhalte
     link: /de/embed-privacy/
     icon: { src: '/images/embed-privacy-icon.svg' }
-  - title: Block Control <span class="coming-soon">kommt bald</span>
+  - title: Block Control
     details: Dokumentation des Sichtbarkeitsplugins für Blöcke
-    # link: /de/block-control/
+    link: /de/block-control/
     icon: { src: '/images/block-control-icon.svg' }
   - title: Multisite Auto Language Switcher <span class="coming-soon">kommt bald</span>
     details: Dokumentation des Plugins zur automatischen Weiterleitung von Sprachen des Multisite Language Switchers

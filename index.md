@@ -19,9 +19,9 @@ features:
     details: Documentation of the 2 click solution for embeds
     link: /embed-privacy/
     icon: { src: '/images/embed-privacy-icon.svg' }
-  - title: Block Control <span class="coming-soon">coming soon</span>
+  - title: Block Control
     details: Documentation of the visibility plugin for blocks
-    # link: /block-control/
+    link: /block-control/
     icon: { src: '/images/block-control-icon.svg' }
   - title: Multisite Auto Language Switcher <span class="coming-soon">coming soon</span>
     details: Documentation of the auto-redirect plugin for languages of Multisite Language Switcher

@@ -121,6 +121,48 @@ export default defineConfig({
       provider: 'local',
     },
     sidebar: {
+      '/block-control/': [
+        {
+          text: 'Block Control',
+          items: [
+            { text: 'Installation', link: '/block-control/installation' },
+            {
+              text: 'Getting started',
+              link: '/block-control/getting-started',
+            },
+            { text: 'System requirements', link: '/block-control/system-requirements' },
+            { text: 'Changelog', link: '/block-control/changelog' },
+          ],
+        },
+        {
+          text: 'Developer',
+          items: [
+            { text: 'Filters', link: '/block-control/developer/filters' },
+            { text: 'Block filters', link: '/block-control/developer/block-filters' },
+          ]
+        },
+      ],
+      '/de/block-control/': [
+        {
+          text: 'Block Control',
+          items: [
+            { text: 'Installation', link: '/de/block-control/installation' },
+            {
+              text: 'Erste Schritte',
+              link: '/de/block-control/getting-started',
+            },
+            { text: 'Systemanforderungen', link: '/de/block-control/system-requirements' },
+            { text: 'Änderungsprotokoll', link: '/de/block-control/changelog' },
+          ],
+        },
+        {
+          text: 'Entwickler',
+          items: [
+            { text: 'Filter', link: '/de/block-control/developer/filters' },
+            { text: 'Block-Filter', link: '/de/block-control/developer/block-filters' },
+          ]
+        },
+      ],
       '/de/embed-privacy/': [
         {
           text: 'Embed Privacy',
