@@ -186,6 +186,8 @@ export default defineConfig({
             { text: 'Verwendung in einem Plugin', link: '/de/embed-privacy/developer/using-in-a-plugin' },
             { text: 'Vorschaubild-Anbieter', link: '/de/embed-privacy/developer/thumbnail-provider' },
             { text: 'Filter', link: '/de/embed-privacy/developer/filters' },
+            { text: 'Migration auf Version 1.10.0', link: '/de/embed-privacy/developer/migration-1-10' },
+            { text: 'Migration auf Version 1.11.0', link: '/de/embed-privacy/developer/migration-1-11' },
           ]
         },
       ],
@@ -277,7 +279,7 @@ export default defineConfig({
             { text: 'Filter Datenschutzerklärung-Systemprüfung', link: '/de/impressum/developer/filters/privacy-policy-system-check' },
             { text: 'Filter Information zur Barrierefreiheit', link: '/de/impressum/developer/filters/accessibility-information' },
             { text: 'Filter API', link: '/de/impressum/developer/filters/api' },
-            { text: 'Migration zu Version 2.0.0', link: '/de/impressum/developer/migration-2' }
+            { text: 'Migration auf Version 2.0.0', link: '/de/impressum/developer/migration-2' }
           ]
         }
       ],
@@ -304,6 +306,8 @@ export default defineConfig({
             { text: 'Using in a plugin', link: '/embed-privacy/developer/using-in-a-plugin' },
             { text: 'Thumbnail provider', link: '/embed-privacy/developer/thumbnail-provider' },
             { text: 'Filters', link: '/embed-privacy/developer/filters' },
+            { text: 'Migration to version 1.10.0', link: '/embed-privacy/developer/migration-1-10' },
+            { text: 'Migration to version 1.11.0', link: '/embed-privacy/developer/migration-1-11' },
           ]
         },
       ],
