@@ -1,15 +1,17 @@
 :root {
 	--vp-c-brand-1: #7f1a64;
+	--vp-c-brand-2: #551143;
 	--vp-button-brand-bg: var(--vp-c-brand-1);
-	--vp-button-brand-hover-bg: #551143;
+	--vp-button-brand-hover-bg: var(--vp-c-brand-2);
 	--vp-button-brand-text: #fff;
 	--vp-button-brand-hover-text: var(--vp-button-brand-text);
 }
 
 .dark {
 	--vp-c-brand-1: #1fad9f;
-	--vp-button-brand-bg: #7f1a64;
+	--vp-c-brand-2: #84c3bb;
 	--vp-button-brand-text: #000;
+	--vp-button-brand-hover-text: var(--vp-button-brand-text);
 }
 
 .logo {
@@ -65,4 +67,37 @@
 .vp-doc h2 > .VPBadge {
 	margin-top: 0;
 	vertical-align: middle;
+}
+
+a.epiphyt-button {
+	background-color: var(--vp-button-alt-bg);
+	border-radius: 20px;
+	border: 1px solid var(--vp-button-alt-border);
+	color: var(--vp-button-alt-text);
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 38px;
+	padding: 0 20px;
+	text-align: center;
+	text-decoration: none !important;
+	transition: background-color .25s, border-color .25s, color .25s;
+	white-space: nowrap;
+}
+
+a.epiphyt-button:hover {
+	background-color: var(--vp-button-alt-hover-bg);
+	border-color: var(--vp-button-alt-hover-border);
+	color: var(--vp-button-alt-hover-text);
+}
+
+.epiphyt-button.is-primary {
+	background-color: var(--vp-button-brand-bg);
+	border-color: var(--vp-button-brand-border);
+	color: var(--vp-button-brand-text);
+}
+
+.epiphyt-button.is-primary:hover {
+	background-color: var(--vp-c-brand-2);
+	color: var(--vp-button-brand-text);
 }

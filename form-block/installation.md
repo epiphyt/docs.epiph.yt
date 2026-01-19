@@ -1,7 +1,8 @@
 # Installation
 
-First, download Form Block from WordPress.org:<br>
-https://wordpress.org/plugins/form-block/
+First, download Form Block from WordPress.org:
+
+<a class="epiphyt-button is-primary" href="https://wordpress.org/plugins/form-block/">Download Form Block</a>
 
 After buying Form Block Pro you will receive a download link to the plugin file and a license key. Download the file as well. For the free Form Block plugin, such credentials are neither available, nor required.
 

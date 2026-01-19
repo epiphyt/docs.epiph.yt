@@ -1,7 +1,8 @@
 # Installation
 
-Lade zuerst Embed Privacy von WordPress.org herunter:<br>
-https://de.wordpress.org/plugins/embed-privacy/
+Lade zuerst Embed Privacy von WordPress.org herunter:
+
+<a class="epiphyt-button is-primary" href="https://de.wordpress.org/plugins/embed-privacy/">Embed Privacy herunterladen</a>
 
 ## Installation über das Backend
 
