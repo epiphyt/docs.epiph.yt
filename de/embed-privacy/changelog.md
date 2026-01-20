@@ -1,5 +1,9 @@
 # Änderungsprotokoll
 
+## Version 1.12.3 <Badge type="info" text="20. Januar 2026" />
+
+* Behoben: Speichern der Embed-Felder für Embed-Anbieter war nicht möglich
+
 ## Version 1.12.2 <Badge type="info" text="17. Januar 2026" />
 
 * Verbessert: Dynamischer Inhalt wird nun leistungsoptimierter verarbeitet

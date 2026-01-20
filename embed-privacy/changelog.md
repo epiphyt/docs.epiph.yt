@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 1.12.3 <Badge type="info" text="January 20, 2026" />
+
+* Fixed: Saving embed fields for embed providers was impossible
+
 ## Version 1.12.2 <Badge type="info" text="January 17, 2026" />
 
 * Improved: Dynamic content is now handled more performant
