@@ -43,11 +43,6 @@
 	width: 324px;
 }
 
-/* see: https://github.com/vuejs/vitepress/issues/5070 */
-.VPNav {
-	overflow-x: visible !important;
-}
-
 .box:has(.coming-soon) {
 	position: relative;
 }
@@ -62,11 +57,6 @@
 	inset-inline-end: 0;
 	padding: 2px 10px;
 	position: absolute;
-}
-
-.vp-doc h2 > .VPBadge {
-	margin-top: 0;
-	vertical-align: middle;
 }
 
 a.epiphyt-button {
