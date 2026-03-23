@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.4.1 <Badge type="info" text="March 23, 2026" />
+
+* Fixed: Handling dependencies with checkboxes/radio buttons having custom values
+* Fixed: Border around the respond dialog close button removed in WordPress 7.0
+
 ## Version 1.4.0 <Badge type="info" text="September 20, 2025" />
 
 * Added: Form submissions stored locally can now be responded to directly from within WordPress

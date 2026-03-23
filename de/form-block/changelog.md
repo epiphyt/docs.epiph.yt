@@ -1,5 +1,13 @@
 # Änderungsprotokoll
 
+## Version 1.4.1 <Badge type="info" text="23. März 2026" />
+
+* Behoben: Handhabung von Abhängigkeiten mit Auswahlkästchen/Radio-Buttons, die individuelle Werte definiert hatten
+* Behoben: Rahmen um den Schließen-Button im Antworten-Dialog unter WordPress 7.0 entfernt
+
+* Fixed: Handling dependencies with checkboxes/radio buttons having custom values
+* Fixed: Border around the respond dialog close button removed in WordPress 7.0
+
 ## Version 1.4.0 <Badge type="info" text="20. September 2025" />
 
 * Hinzugefügt: Auf lokal gespeicherte Formularübermittlungen kann nun direkt innerhalb von WordPress geantwortet werden
