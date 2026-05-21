@@ -279,7 +279,8 @@ export default defineConfig({
             { text: 'Filter Datenschutzerklärung-Systemprüfung', link: '/de/impressum/developer/filters/privacy-policy-system-check' },
             { text: 'Filter Information zur Barrierefreiheit', link: '/de/impressum/developer/filters/accessibility-information' },
             { text: 'Filter API', link: '/de/impressum/developer/filters/api' },
-            { text: 'Migration auf Version 2.0.0', link: '/de/impressum/developer/migration-2' }
+            { text: 'Migration auf Version 2.0.0', link: '/de/impressum/developer/migration-2' },
+            { text: 'Migration auf Version 3.0.0', link: '/de/impressum/developer/migration-3' }
           ]
         }
       ],
@@ -399,7 +400,8 @@ export default defineConfig({
             { text: 'Privacy policy system check filters', link: '/impressum/developer/filters/privacy-policy-system-check' },
             { text: 'Accessibility information filters', link: '/impressum/developer/filters/accessibility-information' },
             { text: 'API filters', link: '/impressum/developer/filters/api' },
-            { text: 'Migration to version 2.0.0', link: '/impressum/developer/migration-2' }
+            { text: 'Migration to version 2.0.0', link: '/impressum/developer/migration-2' },
+            { text: 'Migration to version 3.0.0', link: '/impressum/developer/migration-3' }
           ]
         }
       ],

@@ -120,3 +120,22 @@ function my_impressum_settings_fields( $settings_fields ) {
 
 add_filter( 'impressum_settings_fields', 'my_impressum_settings_fields' );
 ```
+
+## `impressum_option_description_{$field_name}` <Badge type="info" text="Since 3.0.0" />
+
+Through the action `impressum_option_description_{$field_name}` you can change the description of the given `$field_name`.
+
+Parameters:  
+string	$settings\_name Settings group name
+array	$args Field arguments
+array	$options Settings of this settings group
+
+### Example
+
+```php
+function my_impressum_settings_description() {
+	echo '<p>My setting\'s description</p>';
+}
+
+add_action( 'impressum_option_description_my_settings_name', 'my_impressum_settings_description' );
+```

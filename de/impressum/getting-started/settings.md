@@ -98,23 +98,17 @@ Aktuell unterstützte Länder
 * Vietnam
 * Südafrika
 
-## Datenschutz-Einstellungen
-
-Nur für Impressum Plus
+## Datenschutz-Einstellungen <Badge type="tip" text="Nur in Impressum Plus" />
 
 Im Tab der Datenschutz-Einstellungen kannst du Einstellungen bezüglich deiner Datenschutzerklärung aktivieren/deaktivieren oder setzen. Es gibt einige Teile, die immer angezeigt werden und über [Datenschutz-Ersetzungen](#datenschutz-ersetzungen) entfernt/angepasst werden können.
 
 Einige Einstellungen werden automatisch durch Impressum Plus erkannt, beispielsweise wenn ein bestimmtes Plugin aktiv oder eine bestimmte Einstellung gesetzt ist. Dann kann diese Einstellung nicht verändert werden und eine Information wird darunter angezeigt.
 
-## Datenschutz-Ersetzungen
-
-Nur für Impressum Plus
+## Datenschutz-Ersetzungen <Badge type="tip" text="Nur in Impressum Plus" />
 
 Mit Datenschutz-Ersetzungen kannst du den Inhalt eines Teils der Datenschutzerklärung ändern, ohne die gesamte Datenschutzerklärung manuell anzeigen zu müssen. Das funktioniert ähnlich wie bei Beiträgen und Seiten, mit dem Unterschied, dass du den „Datenschutzabschnitt“ auswählen und entscheiden kannst, ob du den gesamten Abschnitt erweitern oder ersetzen möchtest. So kann ein bestehender Abschnitt entweder mit deinem Text erweitert werden, was die Standardeinstellung ist, oder komplett ersetzt werden.
 
-## Einstellungen zur Information zur Barrierefreiheit
-
-Nur für Impressum Plus
+## Einstellungen zur Information zur Barrierefreiheit <Badge type="tip" text="Nur in Impressum Plus" />
 
 Wenn du mehr als 10 Mitarbeiter oder über 2 Mio. € Umsatz pro Jahr hast, ist es erforderlich, dass du nach europäischem Recht eine Information zur Barrierefreiheit auf deiner Website hast.
 
@@ -128,9 +122,7 @@ Du benötigst eine Beschreibung deines Dienstes. Beschreibe daher genau, worum e
 
 Wenn deine Website nicht barrierefrei ist oder sie unter Ausnahmen fällt, musst du deine Benutzer darüber informieren. Wenn aktiviert, musst du diese Inkompatibilitäten oder Ausnahmen beschreiben, aber ebenfalls an die zuständige Marktüberwachungsbehörde melden. Da der rechtliche Rahmen hier sehr strikt ist, stelle sicher, dass die angegebene Information richtig ist.
 
-## API-Einstellungen
-
-Nur für Impressum Plus
+## API-Einstellungen <Badge type="tip" text="Nur in Impressum Plus" />
 
 Du kannst die API aktivieren oder deaktivieren, um Informationen rund um das Impresusm, die Datenschutzerklärung und Erklärung zur Barrierefreiheit von außerhalb von WordPress zu verändern. Weitere Informationen findest du in der [API-Dokumentation](/de/impressum/api/structure.html).
 
@@ -138,9 +130,7 @@ Wenn du die Einstellung **Dieses WordPress sendet Daten** aktivierst, kannst du 
 
 Durch Aktivierung der Einstellung **Lizenzdaten auch bei den Empfängern speichern** werden Lizenzdaten von deiner WordPress-Instanz auf die anderen Systeme geteilt.
 
-## Lizenz-Einstellungen
-
-Nur für Impressum Plus
+## Lizenz-Einstellungen <Badge type="tip" text="Nur in Impressum Plus" />
 
 Um automatische Plugin-Aktualisierungen zu erhalten, musst du deine Lizenzdaten hier angeben. Wenn du diese Daten verloren hast, kannst du sie entweder über den Button „Lizenzdaten verloren“ neu anfordern oder durch das Anmelden in deinem Kundenkonto über den Button „Dein Kundenkonto“ einsehen. In deinem Kundenkonto findest du außerdem deine Lizenzübersicht, in der du alle deine aktivierten/deaktivierten Websites verwalten kannst.
 

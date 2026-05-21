@@ -1,5 +1,14 @@
 # Changelog
 
+## Version 3.0.0 <Badge type="info" text="May 21, 2026" />
+
+* Added: Support for ActivityPub’s avatar caching since version 7.8.0 in privacy policy
+* Added: Translations for some fields in Spanish, Finnish, Polish, Swedish and Slovak
+* Improved: Code base (see [Migration to version 3.0.0](/impressum/developer/migration-3.html))
+* Fixed: Saving network settings
+* Fixed: License key will no more be overridden by asterisks when updating the settings
+* Removed: Deprecated code
+
 ## Version 2.14.3 <Badge type="info" text="December 13, 2025" />
 
 * Added: Translations for some fields in Czech, Dutch, French and Hungarian

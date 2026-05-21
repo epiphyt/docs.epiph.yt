@@ -91,23 +91,17 @@ Currently supported countries:
 * Vietnam
 * South Africa
 
-## Privacy settings
-
-Only for Impressum Plus
+## Privacy settings  <Badge type="tip" text="Only in Impressum Plus" />
 
 On the privacy settings tab, you can enable/disable and set settings regarding your privacy policy. There are some parts that are always displayed and can be removed/customized via [Privacy Replacements](#privacy-replacements).
 
 Some settings are automatically detected by Impressum Plus, e.g. because a certain plugin is active or setting is set. Then, the setting cannot be adjusted, is disabled and an information is displayed below the setting.
 
-## Privacy Replacements
-
-Only for Impressum Plus
+## Privacy Replacements <Badge type="tip" text="Only in Impressum Plus" />
 
 Privacy Replacements can be used to change the content of a part of the privacy policy, without needing to manually display the whole privacy policy. It works similar to posts and pages, with the one difference that you can select the “Privacy Section” and whether you want to extend or replace the whole section. This way, an existing section can be either expanded with your text, which is the default, or completely replaced.
 
-## Accessibility information settings
-
-Only for Impressum Plus
+## Accessibility information settings <Badge type="tip" text="Only in Impressum Plus" />
 
 If you have more than 10 employees or over 2 Mio. € in revenue per year, you are required to have an accessibility information on your website by European law.
 
@@ -121,9 +115,7 @@ You need to set a description of your service. For your website, make clear what
 
 If your website has accessibility incompatibilities or exceptions, you need to inform your users about it. If enabled, you need to describe the incompatibilities or exceptions, but you also have to report them to your market surveillance authority. Since the legal framework is very strict here, make sure to keep this information correct.
 
-## API settings
-
-Only for Impressum Plus
+## API settings <Badge type="tip" text="Only in Impressum Plus" />
 
 You can enable or disable the API to update your information from the imprint, privacy and accessibility information settings from outside of WordPress. You can find more about the API in the [API documentation](/impressum/api/structure.html).
 
@@ -131,9 +123,7 @@ If you enable the setting **This WordPress is sender**, you can add one or multi
 
 Enabling the setting **Expose license credentials to the recipients** shares also license data from this WordPress instance to any recipient set before.
 
-## License settings
-
-Only for Impressum Plus
+## License settings <Badge type="tip" text="Only in Impressum Plus" />
 
 To receive automatic updates, you need to enter your license credentials here. If you’ve lost your credentials, you can request them either by using the “Lost Credentials” button or by logging in to your customer account by using the “Your Customer Account” button. In your customer account, you can also find your license overview, where you can manage all your activated/deactivated websites.
 

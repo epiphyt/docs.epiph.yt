@@ -1,5 +1,14 @@
 # Änderungsprotokoll
 
+## Version 3.0.0 <Badge type="info" text="21. Mai 2026" />
+
+* Hinzugefügt: Unterstützung für die Avatar-Zwischenspeicherung seit ActivityPub 7.8.0 in der Datenschutzerklärung
+* Hinzugefügt: Übersetzungen für einige Felder auf Spanisch, Finnisch, Polnisch, Schwedisch und Slowakisch
+* Verbessert: Code-Basis (siehe [Migration auf Version 3.0.0](/de/impressum/developer/migration-3.html))
+* Behoben: Speichern von Netzwerk-Einstellungen
+* Behoben: Der Lizenzschlüssel wird nicht mehr durch Sternchen ersetzt, wenn man die Einstellungen aktualisiert
+* Entfernt: Veralteten Code
+
 ## Version 2.14.3 <Badge type="info" text="13. Dezember 2025" />
 
 * Hinzugefügt: Übersetzungen für einige Felder auf Französisch, Niederländisch, Tschechisch und Ungarisch
@@ -64,15 +73,15 @@
 * Behoben: Probleme bezüglich der Barrierefreiheit beim Bearbeiten von Feldtiteln auf der Einstellungsseite
 * Behoben: Handhabung von Systemdaten in der API
 
-## Version 2.11.2 <Badge type="info" text="24\. pril, 2025" />
+## Version 2.11.2 <Badge type="info" text="24. April, 2025" />
 
 * Ein Fehler wurde behoben, der eine Aktualisierung verhinderte, wenn die Lizenzdaten über PHP-Konstanten verwaltet werden.
 
-## Version 2.11.1 <Badge type="info" text="23\. pril, 2025" />
+## Version 2.11.1 <Badge type="info" text="23. April, 2025" />
 
 * Ein Fehler wurde behoben, der durch eine zu frühe Verwendung von übersetzten Texten verursacht wurde.
 
-## Version 2.11.0 <Badge type="info" text="19\. pril, 2025" />
+## Version 2.11.0 <Badge type="info" text="19. April, 2025" />
 
 * Verarbeitung des Inhalts der Datenschutzerklärung wurde durch eine komplette Neuentwicklung modernisiert.
 * Unterstützung für Datenschutztexte hinzugefügt, wenn ActivityPub/Webmentions verwendet werden.
