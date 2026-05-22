@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 3.0.0 <Badge type="info" text="May 22, 2026" />
+
+* Fixed: Incompatibility with PHP 8.1 and 8.2
+
 ## Version 3.0.0 <Badge type="info" text="May 21, 2026" />
 
 * Added: Support for ActivityPub’s avatar caching since version 7.8.0 in privacy policy

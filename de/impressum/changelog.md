@@ -1,5 +1,9 @@
 # Änderungsprotokoll
 
+## Version 3.0.0 <Badge type="info" text="22. Mai 2026" />
+
+* Behoben: Inkompatibilität mit PHP 8.1 und 8.2
+
 ## Version 3.0.0 <Badge type="info" text="21. Mai 2026" />
 
 * Hinzugefügt: Unterstützung für die Avatar-Zwischenspeicherung seit ActivityPub 7.8.0 in der Datenschutzerklärung
