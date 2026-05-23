@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 1.12.4 <Badge type="info" text="May 12, 2026" />
+
+* Fixed: Prevent deletion of non-thumbnails
+
 ## Version 1.12.3 <Badge type="info" text="January 20, 2026" />
 
 * Fixed: Saving embed fields for embed providers was impossible
