@@ -30,10 +30,12 @@ Du kannst den Block für jede in deiner WordPress-Instanz registrierten Benutzer
 
 Du kannst den Block für spezifische Seiten-Typen verstecken, die in WordPress technisch einzigartig sind. Das sind beispielsweise die Blog-Seite, die Titelseite, Kategorien etc.
 
+Als eine separate Option kannst du Inhalte auch innerhalb von Feeds verstecken. <Badge type="info" text="Seit 1.6.0" />
+
 ## Nummerierte Seiten
 
 Du kannst den Block auf nummerierten Seiten verstecken, z. B. auf einzelnen Seiten innerhalb eines Archivs. Es gibt einige vordefinierte Werte, aber du kannst auch die Seitennummern spezifisch angeben, auf denen du den Block verstecken willst.
 
 ## Inhaltstypen
 
-Du kannst den Block auf einzelnen Elementen des aktuellen Inhaltstyps ausblenden. Wenn du eine Seite bearbeitest, kannst du hier Seiten definieren. Wenn du einen Blogbeitrag bearbeitest, kannst du hier Blogbeiträge definieren. Wenn du die Sichtbarkeitseinstellungen im Website-Editor oder dem Widget-Bereich verwendest, werden alle registrierten Inhaltstypen angezeigt (mit Ausnahme einiger systemrelevanter Inhaltstypen wie z. B. Navigationsmenü-Einträge, Block-Vorlagen etc.).
+Du kannst den Block auf einzelnen Elementen des aktuellen Inhaltstyps verstecken. Wenn du eine Seite bearbeitest, kannst du hier Seiten definieren. Wenn du einen Blogbeitrag bearbeitest, kannst du hier Blogbeiträge definieren. Wenn du die Sichtbarkeitseinstellungen im Website-Editor oder dem Widget-Bereich verwendest, werden alle registrierten Inhaltstypen angezeigt (mit Ausnahme einiger systemrelevanter Inhaltstypen wie z. B. Navigationsmenü-Einträge, Block-Vorlagen etc.).

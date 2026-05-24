@@ -1,5 +1,12 @@
 # Änderungsprotokoll
 
+## Version 1.6.0 <Badge type="info" text="24. Mai 2026" />
+
+* Hinzugefügt: Verstecken von Inhalt in Feeds
+* Hinzugefügt: Erlaube das Filtern des Beitrags-Objekts vor Überprüfung des Inhaltstypes
+* Hinzugefügt: Link to documentation in plugin row
+* Behoben: Potential wrong return type in `Block_Control::toggle_blocks()`
+
 ## Version 1.5.1 <Badge type="info" text="14. Dezember 2025" />
 
 * Behoben: Ein Block mit einem Startdatum zum Ausblenden in der Zukunft und mit einem Enddatum wird jetzt korrekt zwischen diesen beiden Daten ausgeblendet

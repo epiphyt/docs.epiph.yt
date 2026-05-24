@@ -30,6 +30,8 @@ You can hide the block for any user role registered in your WordPress instance. 
 
 You can hide the block for specific page types, which are technically unique in WordPress, such as the blog page, the front page, categories, etc.
 
+As a separate option, you can also hide content within feeds. <Badge type="info" text="Since 1.6.0" />
+
 ## Numbered pages
 
 You can hide the block for numbered pages, e.g. certain pages in an archive list. There are some pre-defined values, but you can also specifically define the page numbers on where to hide the block.

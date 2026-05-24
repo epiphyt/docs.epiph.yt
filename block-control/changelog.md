@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 1.6.0 <Badge type="info" text="May 24, 2026" />
+
+* Added: Allow hiding content in feeds
+* Added: Allow filtering the post object before checking for post type
+* Added: Link to documentation in plugin row
+* Fixed: Potential wrong return type in `Block_Control::toggle_blocks()`
+
 ## Version 1.5.1 <Badge type="info" text="December 14, 2025" />
 
 * Fixed: A block with a start date to hide in the future and with an end date will now correctly be hidden between those two dates
