@@ -2,7 +2,7 @@
 
 ## Version 1.6.0 <Badge type="info" text="24. Mai 2026" />
 
-* Hinzugefügt: Verstecken von Inhalt in Feeds
+* Hinzugefügt: Verstecken von Inhalten in Feeds
 * Hinzugefügt: Erlaube das Filtern des Beitrags-Objekts vor Überprüfung des Inhaltstypes
 * Hinzugefügt: Link to documentation in plugin row
 * Behoben: Potential wrong return type in `Block_Control::toggle_blocks()`
