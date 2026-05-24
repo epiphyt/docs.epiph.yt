@@ -4,7 +4,7 @@
 
 * Hinzugefügt: Verstecken von Inhalten in Feeds
 * Hinzugefügt: Erlaube das Filtern des Beitrags-Objekts vor Überprüfung des Inhaltstypes
-* Hinzugefügt: Link to documentation in plugin row
+* Hinzugefügt: Link zur Dokumentation in der Plugin-Zeile
 * Behoben: Potenziell fehlerhafter Rückgabe-Typ in `Block_Control::toggle_blocks()`
 
 ## Version 1.5.1 <Badge type="info" text="14. Dezember 2025" />
