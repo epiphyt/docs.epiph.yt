@@ -23,9 +23,9 @@ features:
     details: Documentation of the visibility plugin for blocks
     link: /block-control/
     icon: { src: '/images/block-control-icon.svg' }
-  - title: Multisite Auto Language Switcher <span class="coming-soon">coming soon</span>
+  - title: Multisite Auto Language Switcher
     details: Documentation of the auto-redirect plugin for languages of Multisite Language Switcher
-    # link: /multisite-auto-language-switcher/
+    link: /multisite-auto-language-switcher/
     icon: { src: '/images/multisite-auto-language-switcher-icon.svg' }
 ---
 

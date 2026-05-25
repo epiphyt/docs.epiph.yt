@@ -23,8 +23,8 @@ features:
     details: Dokumentation des Sichtbarkeitsplugins für Blöcke
     link: /de/block-control/
     icon: { src: '/images/block-control-icon.svg' }
-  - title: Multisite Auto Language Switcher <span class="coming-soon">kommt bald</span>
+  - title: Multisite Auto Language Switcher
     details: Dokumentation des Plugins zur automatischen Weiterleitung von Sprachen des Multisite Language Switchers
-    # link: /de/multisite-auto-language-switcher/
+    link: /de/multisite-auto-language-switcher/
     icon: { src: '/images/multisite-auto-language-switcher-icon.svg' }
 ---

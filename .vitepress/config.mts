@@ -284,6 +284,20 @@ export default defineConfig({
           ]
         }
       ],
+      '/de/multisite-auto-language-switcher/': [
+        {
+          text: 'Multisite Auto Language Switcher',
+          items: [
+            { text: 'Installation', link: '/de/multisite-auto-language-switcher/installation' },
+            {
+              text: 'Erste Schritte',
+              link: '/de/multisite-auto-language-switcher/getting-started',
+            },
+            { text: 'Systemanforderungen', link: '/de/multisite-auto-language-switcher/system-requirements' },
+            { text: 'Änderungsprotokoll', link: '/de/multisite-auto-language-switcher/changelog' },
+          ],
+        },
+      ],
       '/embed-privacy/': [
         {
           text: 'Embed Privacy',
@@ -404,6 +418,20 @@ export default defineConfig({
             { text: 'Migration to version 3.0.0', link: '/impressum/developer/migration-3' }
           ]
         }
+      ],
+      '/multisite-auto-language-switcher/': [
+        {
+          text: 'Multisite Auto Language Switcher',
+          items: [
+            { text: 'Installation', link: '/multisite-auto-language-switcher/installation' },
+            {
+              text: 'Getting started',
+              link: '/multisite-auto-language-switcher/getting-started',
+            },
+            { text: 'System requirements', link: '/multisite-auto-language-switcher/system-requirements' },
+            { text: 'Changelog', link: '/multisite-auto-language-switcher/changelog' },
+          ],
+        },
       ],
     },
     siteTitle: 'Documentations',
