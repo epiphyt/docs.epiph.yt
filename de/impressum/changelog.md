@@ -1,6 +1,10 @@
 # Änderungsprotokoll
 
-## Version 3.0.0 <Badge type="info" text="22. Mai 2026" />
+## Version 3.0.2 <Badge type="info" text="1. Juni 2026" />
+
+* Behoben: Ein Fehler während der Aktivierung des Plugins
+
+## Version 3.0.1 <Badge type="info" text="22. Mai 2026" />
 
 * Behoben: Inkompatibilität mit PHP 8.1 und 8.2
 

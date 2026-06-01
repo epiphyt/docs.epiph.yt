@@ -1,6 +1,10 @@
 # Changelog
 
-## Version 3.0.0 <Badge type="info" text="May 22, 2026" />
+## Version 3.0.2 <Badge type="info" text="June 1, 2026" />
+
+* Fixed: An error while activating the plugin
+
+## Version 3.0.1 <Badge type="info" text="May 22, 2026" />
 
 * Fixed: Incompatibility with PHP 8.1 and 8.2
 
