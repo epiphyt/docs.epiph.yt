@@ -1,5 +1,9 @@
 # Änderungsprotokoll
 
+## Version 3.0.3 <Badge type="info" text="5. Juni 2026" />
+
+* Behoben: Die REST APIs für Impressum und Datenschutz waren defekt
+
 ## Version 3.0.2 <Badge type="info" text="1. Juni 2026" />
 
 * Behoben: Ein Fehler während der Aktivierung des Plugins

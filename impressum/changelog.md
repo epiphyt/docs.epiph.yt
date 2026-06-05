@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 3.0.3 <Badge type="info" text="June 5, 2026" />
+
+* Fixed: Imprint and privacy policy REST APIs were defect
+
 ## Version 3.0.2 <Badge type="info" text="June 1, 2026" />
 
 * Fixed: An error while activating the plugin
