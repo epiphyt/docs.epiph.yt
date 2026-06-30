@@ -2,7 +2,7 @@
 
 ## Version 1.12.4 <Badge type="info" text="May 12, 2026" />
 
-* Fixed: Prevent deletion of non-thumbnails
+* Fixed: Prevent deletion of non-thumbnails ([CVE-2026-57346](https://www.cve.org/CVERecord?id=CVE-2026-57346))
 
 ## Version 1.12.3 <Badge type="info" text="January 20, 2026" />
 
