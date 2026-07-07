@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 3.0.4 <Badge type="info" text="July 7, 2026" />
+
+* Fixed: Authorization via application password was impossible after activating the API functionality
+* Fixed: Disabling license from within the settings
+
 ## Version 3.0.3 <Badge type="info" text="June 5, 2026" />
 
 * Fixed: Imprint and privacy policy REST APIs were defect

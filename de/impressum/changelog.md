@@ -1,5 +1,10 @@
 # Änderungsprotokoll
 
+## Version 3.0.4 <Badge type="info" text="7. Juli 2026" />
+
+* Behoben: Autorisierung via Anwendungspasswort war nach Aktivierung der API-Funktionalität nicht mehr möglich
+* Behoben: Deaktivieren der Lizenz aus dem Einstellungsbereich
+
 ## Version 3.0.3 <Badge type="info" text="5. Juni 2026" />
 
 * Behoben: Die REST APIs für Impressum und Datenschutz waren defekt
