@@ -26,7 +26,7 @@
 
 ## Version 1.12.4 <Badge type="info" text="12. Mai 2026" />
 
-* Behoben: Löschen von Dateien, die keine Thumbnails sind ([CVE-2026-57346](https://www.cve.org/CVERecord?id=CVE-2026-57346))
+* Behoben: Löschen von Dateien, die keine Vorschaubilder sind ([CVE-2026-57346](https://www.cve.org/CVERecord?id=CVE-2026-57346))
 
 ## Version 1.12.3 <Badge type="info" text="20. Januar 2026" />
 
