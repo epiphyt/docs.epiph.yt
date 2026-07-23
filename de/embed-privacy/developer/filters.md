@@ -416,6 +416,17 @@ mixed\[\] $attributes Embed-Attribute
 
 Erwartet einen booleschen Wert.
 
+## `embed_privacy_ignored_match_attributes` <Badge type="info" text="Seit 1.10.11" />
+
+Durch den Filter `embed_privacy_ignored_match_attributes` können die Attribute geändert werden, die beim Abgleich von Inhalten ignoriert werden. Es kann `*` als Platzhalter verwendet werden, z. B. `data-*`.
+
+Parameter:  
+string\[\] $ignored\_attributes Aktuelle Liste ignorierter Attribute  
+string\[\] $matches Liste übereinstimmender Inhalte  
+\\epiphyt\\Embed\_privacy\\embed\\Provider $provider Aktueller Anbieter
+
+Erwartet ein Array.
+
 ## `embed_privacy_dynamic_style_properties` <Badge type="warning" text="Veraltet seit 1.10.0" />
 
 Durch den Filter `` `embed_privacy_dynamic_style_properties` `` können die Eigenschaften des dynamischen Embed-Stils einer Seite geändert werden.
@@ -564,6 +575,15 @@ Durch den Filter `embed_privacy_valid_files` können die Namen gültiger Dateien
 
 Parameter:  
 array Die Standard-Namenliste
+
+Erwartet ein Array.
+
+## `embed_privacy_allowed_file_mime_types` <Badge type="info" text="Seit 1.13.0" />
+
+Durch den Filter `embed_privacy_allowed_file_mime_types` können die erlaubten MIME-Typen für hochgeladene Dateien geändert werden.
+
+Parameter:  
+string[] $allowed\_mime\_types Liste der erlaubten MIME-Typen
 
 Erwartet ein Array.
 

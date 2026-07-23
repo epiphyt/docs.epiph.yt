@@ -1,5 +1,29 @@
 # Änderungsprotokoll
 
+## Version 1.13.0 <Badge type="info" text="23. Juli 2026" />
+
+* Hinzugefügt: Unterstützung für Cover-Block-Embed-URLs
+* Hinzugefügt: Unterstützung für den Avia Builder von Enfold
+* Hinzugefügt: Unterstützung für das YouTube Element in Elementor Atomic 4.0
+* Hinzugefügt: Benachrichtigung for Screenreader, wenn ein eingebetteter Inhalt geladen wurde
+* Hinzugefügt: Information und Direktlink via noscript für Benutzer mit deaktiviertem JavaScript
+* Hinzugefügt: Unit-Tests
+* Verbessert: Ersetzungen werden nur noch einmalig pro Inhalt durchgeführt
+* Verbessert: Zwischenspeicherung von Abfragen für Embed-Anbieter
+* Verbessert: Zwischenspeicherung von ignorierten Blöcken
+* Behoben: Maskierung von ActivityPub-Inhalten
+* Behoben: Maskierung von Embed-Titeln
+* Behoben: Visuelles Überlaufen oder falsch gestreckter eingebetteter Inhalt
+* Behoben: Prüfung auf ignorierte Shortcodes
+* Behoben: Handhabung von eingebetteten Inhalten ohne URLs in Feeds
+* Behoben: Prüfung auf Inhalt des WPBackery Page Builders
+* Behoben: Laden von Assets in Admin-Ansichten
+* Behoben: Seitenverhältnis bei eingebetteten Inhalten von WordPress.org
+* Behoben: Probleme mit dem Video-Modul von Elementor
+* Behoben: Reguläre Ausdrücke für X und WordPress.tv
+* Behoben: Tastaturnavigation zum entfernen von Hintergrundbildern bei Embed-Anbietern im Adminbereich
+* Behoben: Kleinere Fehler und Ungereimtheiten
+
 ## Version 1.12.4 <Badge type="info" text="12. Mai 2026" />
 
 * Behoben: Löschen von Dateien, die keine Thumbnails sind ([CVE-2026-57346](https://www.cve.org/CVERecord?id=CVE-2026-57346))

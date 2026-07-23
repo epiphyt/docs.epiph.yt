@@ -416,6 +416,17 @@ mixed\[\] $attributes Current attributes
 
 Expects a boolean.
 
+## `embed_privacy_ignored_match_attributes` <Badge type="info" text="Since 1.10.11" />
+
+Through the filter `embed_privacy_ignored_match_attributes` the attributes that are ignored while matching content can be changed. You can use `*` as a wildcard, e.g. `data-*`.
+
+Parameters:
+string\[\] $ignored\_attributes Current list of ignored attributes  
+string\[\] $matches List of matched content  
+\\epiphyt\\Embed\_privacy\\embed\\Provider $provider Current provider
+
+Expects an array.
+
 ## `embed_privacy_dynamic_style_properties` <Badge type="warning" text="Deprecated since 1.10.0" />
 
 Through the filter `embed_privacy_dynamic_style_properties` properties for the dynamic embed style of a page can be changed.
@@ -554,6 +565,15 @@ Through the filter `embed_privacy_valid_files` the name of valid files in POST r
 
 Parameters:
 array The default name list
+
+Expects an array.
+
+## `embed_privacy_allowed_file_mime_types` <Badge type="info" text="Since 1.13.0" />
+
+Through the filter `embed_privacy_allowed_file_mime_types` the allowed mime types for uploaded files can be changed.
+
+Parameters:
+string[] $allowed\_mime\_types List of allowed mime types
 
 Expects an array.
 
