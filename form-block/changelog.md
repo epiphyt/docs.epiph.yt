@@ -1,4 +1,16 @@
-# Changelog
+# Changelog for Form Block Pro
+
+## Version 1.5.0 <Badge type="info" text="July 27, 2026" />
+
+* Added: Sections with optional progress bar
+* Added: Minimum and maximum repeats for repeater fields
+* Added: Delete button for repeater fields
+* Improved: Hide dependency section if there is no field to select
+* Improved: Error message for invalid repeater fields
+* Fixed: Handling dependencies while typing
+* Fixed: Displaying default consent message
+* Fixed: Calculating dependency conditions
+* Fixed: Registering textarea attributes
 
 ## Version 1.4.1 <Badge type="info" text="March 23, 2026" />
 

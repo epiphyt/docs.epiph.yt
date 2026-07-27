@@ -1,12 +1,21 @@
-# Änderungsprotokoll
+# Änderungsprotokoll für Form Block Pro
+
+## Version 1.5.0 <Badge type="info" text="27. Juli 2026" />
+
+* Hinzugefügt: Abschnitte mit optionaler Fortschrittsanzeige
+* Hinzugefügt: Minimale und Anzahl an Wiederholungen für Wiederholungsfelder
+* Hinzugefügt: Löschen-Button für Wiederholungsfelder
+* Verbessert: Abhängigkeits-Abschnitt wird ausgeblendet, wenn es kein Feld zur Auswahl gibt
+* Verbessert: Fehlermeldung für ungültige Wiederholungsfelder
+* Behoben: Handhabung von Abhängigkeiten während der Eingabe
+* Behoben: Anzeige der Standard-Einwilligungsnachricht
+* Behoben: Berechnung von Abhängigkeitsbedingungen
+* Behoben: Registrierung von Textbereich-Attributen
 
 ## Version 1.4.1 <Badge type="info" text="23. März 2026" />
 
 * Behoben: Handhabung von Abhängigkeiten mit Auswahlkästchen/Radio-Buttons, die individuelle Werte definiert hatten
 * Behoben: Rahmen um den Schließen-Button im Antworten-Dialog unter WordPress 7.0 entfernt
-
-* Fixed: Handling dependencies with checkboxes/radio buttons having custom values
-* Fixed: Border around the respond dialog close button removed in WordPress 7.0
 
 ## Version 1.4.0 <Badge type="info" text="20. September 2025" />
 
