@@ -4,7 +4,7 @@
 
 * Improved: Use alert role for validation notices
 * Improved: Use radiogroup where applicable
-* Improved: Use <lang> for accessibility law titles
+* Improved: Use `<lang>` for accessibility law titles
 * Improved: Use autocomplete to the license e-mail field
 * Fixed: Make API recipient remove control a real button
 * Fixed: Heading hierarchy in Webmention privacy section

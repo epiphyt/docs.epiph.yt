@@ -4,7 +4,7 @@
 
 * Verbessert: Verwendung der Alert-Rolle bei der Gültigkeitsprüfung
 * Verbessert: Verwendung von Radio-Gruppen, wo sinnvoll
-* Verbessert: Verwendung von <lang> für zugänglichere Gesetzestitel
+* Verbessert: Verwendung von `<lang>` für zugänglichere Gesetzestitel
 * Verbessert: Verwendung des autocomplete-Attributs im Lizenz-E-Mail-Feld
 * Behoben: Das Kontrollelement zum Entfernen von API-Empfängern ist nun ein richtiger Button
 * Behoben: Fehlerhafte Überschriftenhierarchie im Webmention-Datenschutzabschnitt
