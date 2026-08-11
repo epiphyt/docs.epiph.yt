@@ -1,5 +1,19 @@
 # Änderungsprotokoll für Form Block Pro
 
+## Version 1.5.1 <Badge type="info" text="12. August 2026" />
+
+* Verbessert: Wiederholungs-Elemente werden jetzt gruppiert und ihrem Löschen-Button zugeordnet
+* Verbessert: Der dekorative Fortschrittsbalken in mehrstufigen Formularen ist nun für Screenreader ausgeblendet
+* Verbessert: Der deaktivierte Zustand von nicht erreichbaren Formularschritten wird nun offengelegt
+* Verbessert: Zustände in mehrstufigen Formularen sind jetzt auch über die Form und nicht mehr nur durch die Farbe unterscheidbar
+* Verbessert: Der Fokus wird bei Schrittwechseln auf den Abschnitts-Container verschoben
+* Verbessert: Überprüfungsfehler von Schritten werden nun ihren Feldern zugeordnet
+* Behoben: Tastaturfalle und Modalität des Antwort-Dialogs
+* Behoben: Das Steuerelement zum Hinzufügen von Wiederholungs-Elementen ist jetzt ein Button
+* Behoben: Der Button zum Hinzufügen von Wiederholungs-Elementen wird deaktiviert, wenn das Maximum erreicht ist; das Maximum wird Screenreadern angekündigt und der Button nicht mehr komplett ausgeblendet
+* Behoben: Fehleranzeige bei Mehrfachfeldern (z. B. das individuelle Datumsfeld) in Abschnitten
+* Behoben: Einige kleinere Fehler bei den Wiederholungs-Elementen
+
 ## Version 1.5.0 <Badge type="info" text="27. Juli 2026" />
 
 * Hinzugefügt: Abschnitte mit optionaler Fortschrittsanzeige

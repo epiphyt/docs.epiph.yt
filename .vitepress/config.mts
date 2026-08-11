@@ -132,6 +132,7 @@ export default defineConfig({
             },
             { text: 'System requirements', link: '/block-control/system-requirements' },
             { text: 'Changelog', link: '/block-control/changelog' },
+            { text: 'Accessibility Conformance Report', link: '/block-control/acr' },
           ],
         },
         {
@@ -153,6 +154,7 @@ export default defineConfig({
             },
             { text: 'Systemanforderungen', link: '/de/block-control/system-requirements' },
             { text: 'Änderungsprotokoll', link: '/de/block-control/changelog' },
+            { text: 'Accessibility Conformance Report', link: '/de/block-control/acr' },
           ],
         },
         {
@@ -174,10 +176,12 @@ export default defineConfig({
               items: [
                 { text: 'Einstellungen', link: '/de/embed-privacy/settings' },
                 { text: 'Embed-Anbieter verwalten', link: '/de/embed-privacy/manage-providers' },
+                { text: 'Opt-out-Shortcode', link: '/de/embed-privacy/opt-out-shortcode' },
               ],
             },
             { text: 'Systemanforderungen', link: '/de/embed-privacy/system-requirements' },
             { text: 'Änderungsprotokoll', link: '/de/embed-privacy/changelog' },
+            { text: 'Accessibility Conformance Report', link: '/de/embed-privacy/acr' },
           ]
         },
         {
@@ -214,6 +218,13 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Accessibility Conformance Report',
+          items: [
+            { text: 'Form Block', link: '/de/form-block/acr/free' },
+            { text: 'Form Block Pro', link: '/de/form-block/acr/pro' }
+          ]
+        },
+        {
           text: 'Entwickler',
           items: [
             { text: 'Filter', link: '/de/form-block/developer/filters' },
@@ -247,6 +258,13 @@ export default defineConfig({
             { text: 'Änderungsprotokoll', link: '/de/impressum/changelog' },
             { text: 'Lizenz', link: '/de/impressum/license' },
             { text: 'Wechsel auf Impressum Plus', link: '/de/impressum/switch' }
+          ]
+        },
+        {
+          text: 'Accessibility Conformance Report',
+          items: [
+            { text: 'Impressum', link: '/de/impressum/acr/free' },
+            { text: 'Impressum Plus', link: '/de/impressum/acr/plus' }
           ]
         },
         {
@@ -295,6 +313,7 @@ export default defineConfig({
             },
             { text: 'Systemanforderungen', link: '/de/multisite-auto-language-switcher/system-requirements' },
             { text: 'Änderungsprotokoll', link: '/de/multisite-auto-language-switcher/changelog' },
+            { text: 'Accessibility Conformance Report', link: '/de/multisite-auto-language-switcher/acr' },
           ],
         },
       ],
@@ -309,10 +328,12 @@ export default defineConfig({
               items: [
                 { text: 'Settings', link: '/embed-privacy/settings' },
                 { text: 'Manage embed providers', link: '/embed-privacy/manage-providers' },
+                { text: 'Opt-out shortcode', link: '/embed-privacy/opt-out-shortcode' },
               ],
             },
             { text: 'System requirements', link: '/embed-privacy/system-requirements' },
             { text: 'Changelog', link: '/embed-privacy/changelog' },
+            { text: 'Accessibility Conformance Report', link: '/embed-privacy/acr' },
           ]
         },
         {
@@ -349,6 +370,13 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Accessibility Conformance Report',
+          items: [
+            { text: 'Form Block', link: '/form-block/acr/free' },
+            { text: 'Form Block Pro', link: '/form-block/acr/pro' }
+          ]
+        },
+        {
           text: 'Developer',
           items: [
             { text: 'Filters', link: '/form-block/developer/filters' },
@@ -382,6 +410,13 @@ export default defineConfig({
             { text: 'Changelog', link: '/impressum/changelog' },
             { text: 'License', link: '/impressum/license' },
             { text: 'Switch to Impressum Plus', link: '/impressum/switch' }
+          ]
+        },
+        {
+          text: 'Accessibility Conformance Report',
+          items: [
+            { text: 'Impressum', link: '/impressum/acr/free' },
+            { text: 'Impressum Plus', link: '/impressum/acr/plus' }
           ]
         },
         {
@@ -430,6 +465,7 @@ export default defineConfig({
             },
             { text: 'System requirements', link: '/multisite-auto-language-switcher/system-requirements' },
             { text: 'Changelog', link: '/multisite-auto-language-switcher/changelog' },
+            { text: 'Accessibility Conformance Report', link: '/multisite-auto-language-switcher/acr' },
           ],
         },
       ],

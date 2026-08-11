@@ -1,5 +1,21 @@
 # Changelog
 
+## Version 1.6.1 <Badge type="info" text="August 12, 2026" />
+
+* Improved: Group labels of the visibility controls are now announced by screen readers
+* Improved: The hide by date controls now have unique, descriptive labels for screen readers
+* Improved: The visibility panel now indicates to screen readers that settings apply to a block
+* Improved: Blocks hidden by date are now marked with an outline instead of reduced contrast
+* Improved: The option to hide content for screen readers now explains when not to use it
+* Improved: The documentation link in the plugin list now announces that it opens in a new tab
+* Improved: The page numbers field now explains its format and that only numbers are allowed
+* Fixed: The visibility panel no longer closes while changing the hide by date settings
+* Fixed: Focus is no longer lost after removing a hide or display date
+* Fixed: Screen readers are now informed if no visibility setting applies to a block anymore
+* Fixed: Posts without a title now have a readable label in the visibility settings
+* Fixed: Hiding a block for screen readers no longer produces invalid HTML in nested blocks
+* Fixed: The screen reader text class is now added reliably regardless of quotes and other classes
+
 ## Version 1.6.0 <Badge type="info" text="May 24, 2026" />
 
 * Added: Allow hiding content in feeds

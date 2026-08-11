@@ -1,5 +1,14 @@
 # Änderungsprotokoll
 
+## Version 3.0.5 <Badge type="info" text="12. August 2026" />
+
+* Verbessert: Verwendung der Alert-Rolle bei der Gültigkeitsprüfung
+* Verbessert: Verwendung von Radio-Gruppen, wo sinnvoll
+* Verbessert: Verwendung von <lang> für zugänglichere Gesetzestitel
+* Verbessert: Verwendung des autocomplete-Attributs im Lizenz-E-Mail-Feld
+* Behoben: Das Kontrollelement zum Entfernen von API-Empfängern ist nun ein richtiger Button
+* Behoben: Fehlerhafte Überschriftenhierarchie im Webmention-Datenschutzabschnitt
+
 ## Version 3.0.4 <Badge type="info" text="7. Juli 2026" />
 
 * Behoben: Autorisierung via Anwendungspasswort war nach Aktivierung der API-Funktionalität nicht mehr möglich

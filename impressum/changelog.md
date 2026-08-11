@@ -1,5 +1,14 @@
 # Changelog
 
+## Version 3.0.5 <Badge type="info" text="August 12, 2026" />
+
+* Improved: Use alert role for validation notices
+* Improved: Use radiogroup where applicable
+* Improved: Use <lang> for accessibility law titles
+* Improved: Use autocomplete to the license e-mail field
+* Fixed: Make API recipient remove control a real button
+* Fixed: Heading hierarchy in Webmention privacy section
+
 ## Version 3.0.4 <Badge type="info" text="July 7, 2026" />
 
 * Fixed: Authorization via application password was impossible after activating the API functionality

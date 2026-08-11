@@ -1,5 +1,12 @@
 # Änderungsprotokoll
 
+## Version 1.1.3 <Badge type="info" text="12. August 2026" />
+
+* Hinzugefügt: Hinweis für Screenreader, dass Dokumentationslinks in einem neuen Tab geöffnet werden
+* Behoben: Fehlendes aria-current-Attribut für die aktuelle Sprache im Sprachwechsler
+* Behoben: Links im Sprachwechsler enthalten nun kein redundantes title-Attribut mehr
+* Behoben: Maskieren der Linkausgabe im Sprachwechsler
+
 ## Version 1.1.2 <Badge type="info" text="25. Mai 2026" />
 
 * Hinzugefügt: Kompatibilität mit WordPress 7.0

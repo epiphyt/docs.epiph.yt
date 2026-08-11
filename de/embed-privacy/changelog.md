@@ -1,5 +1,21 @@
 # Änderungsprotokoll
 
+## Version 1.14.0 <Badge type="info" text="12. August 2026" />
+
+* Hinzugefügt: Neues Attribut `headline_level` für den Opt-out-Shortcode
+* Hinzugefügt: Hinweis, dass der Link zur Datenschutzerklärung in einem neuen Tab geöffnet wird
+* Hinzugefügt: Titel für Video-iframes in Elementor
+* Verbessert: Feldbeschreibungen sind nun programmatisch mit ihren Formularelementen verknüpft
+* Verbessert: Das Styling des Overlays wird nun auch angewendet, während ein Element innerhalb des Overlays fokussiert ist
+* Verbessert: Die Einstellungen für reduzierte Bewegung und erzwungene Farben werden nun berücksichtigt
+* Verbessert: Die Supportdaten können nun per Tastatur gescrollt werden
+* Verbessert: Die Liste der Embed-Anbieter des Opt-out-Shortcodes wird nun durch ihre Überschrift beschriftet
+* Verbessert: Die Einstellungsseite verwendet nun echte Abschnittsüberschriften
+* Behoben: Nach dem Aktivieren eines Overlays mit der Maus blieb ein unsichtbarer Button zurück
+* Behoben: Das Aktivieren eines Overlays per Tastatur lud den eingebetteten Inhalt zweimal und verursachte einen JavaScript-Fehler
+* Behoben: Der Fokus ging nach dem Laden eines eingebetteten Inhalts verloren
+* Behoben: Beschriftung und Handhabung des Tastaturfokus des Hintergrundbild-Felds im Adminbereich
+
 ## Version 1.13.0 <Badge type="info" text="23. Juli 2026" />
 
 * Hinzugefügt: Unterstützung für Cover-Block-Embed-URLs

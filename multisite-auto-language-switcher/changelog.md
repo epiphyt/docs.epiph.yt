@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 1.1.3 <Badge type="info" text="August 12, 2026" />
+
+* Added: Note for screen readers that the documentation link opens in a new tab
+* Fixed: Missing aria-current attribute for the current language in the language switcher
+* Fixed: Language switcher links no longer contain a redundant title attribute
+* Fixed: Escaping of the language switcher link output
+
 ## Version 1.1.2 <Badge type="info" text="May 25, 2026" />
 
 * Added: Compatibility with WordPress 7.0

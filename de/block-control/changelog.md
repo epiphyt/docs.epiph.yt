@@ -1,5 +1,21 @@
 # Änderungsprotokoll
 
+## Version 1.6.1 <Badge type="info" text="12. August 2026" />
+
+* Verbessert: Gruppen-Beschriftungen der Sichtbarkeitseinstellungen werden jetzt von Screenreadern angesagt
+* Verbessert: Die Einstellungen zum Ausblenden nach Datum haben jetzt eindeutige, aussagekräftige Beschriftungen für Screenreader
+* Verbessert: Das Sichtbarkeits-Panel weist Screenreader jetzt darauf hin, dass für einen Block Einstellungen gelten
+* Verbessert: Nach Datum ausgeblendete Blöcke werden jetzt mit einer Kontur statt mit verringertem Kontrast gekennzeichnet
+* Verbessert: Die Option zum Ausblenden von Inhalten für Screenreader erklärt jetzt, wann sie nicht verwendet werden sollte
+* Verbessert: Der Link zur Dokumentation in der Plugin-Liste weist jetzt darauf hin, dass er in einem neuen Tab geöffnet wird
+* Verbessert: Das Feld für Seitenzahlen erklärt jetzt sein Format und dass nur Zahlen zulässig sind
+* Behoben: Das Sichtbarkeits-Panel schließt sich nicht mehr beim Ändern der Einstellungen zum Ausblenden nach Datum
+* Behoben: Der Fokus geht nach dem Entfernen eines Ausblenden- oder Anzeige-Datums nicht mehr verloren
+* Behoben: Screenreader werden jetzt informiert, wenn für einen Block keine Sichtbarkeitseinstellung mehr gilt
+* Behoben: Beiträge ohne Titel haben jetzt eine lesbare Beschriftung in den Sichtbarkeitseinstellungen
+* Behoben: Das Ausblenden eines Blocks für Screenreader erzeugt in verschachtelten Blöcken kein ungültiges HTML mehr
+* Behoben: Die Klasse für Screenreader-Text wird jetzt unabhängig von Anführungszeichen und anderen Klassen zuverlässig hinzugefügt
+
 ## Version 1.6.0 <Badge type="info" text="24. Mai 2026" />
 
 * Hinzugefügt: Verstecken von Inhalten in Feeds

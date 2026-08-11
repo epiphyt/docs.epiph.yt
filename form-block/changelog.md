@@ -1,5 +1,19 @@
 # Changelog for Form Block Pro
 
+## Version 1.5.1 <Badge type="info" text="August 12, 2026" />
+
+* Improved: Repeater items are now grouped and associated to their remove button
+* Improved: The decorative progress bar in multi-step forms is now hidden for screen readers
+* Improved: Expose the disabled state of unreachable form steps
+* Improved: States in multi-step forms are now also distinguishable via form and no more alone by color
+* Improved: Move focus to the section container on step changes
+* Improved: Associate step validation errors with their fields
+* Fixed: Keyboard trap and modality of the respond dialog
+* Fixed: The repeater add control is now a button
+* Fixed: Disable the repeater add button when maximum is reached, announce the maximum to screen readers and don't hide it completely
+* Fixed: Multi-field (e.g. custom date field) error display in sections
+* Fixed: Some smaller bugs in the repeater items
+
 ## Version 1.5.0 <Badge type="info" text="July 27, 2026" />
 
 * Added: Sections with optional progress bar
