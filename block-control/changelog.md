@@ -1,5 +1,14 @@
 # Changelog
 
+## Version 2.0.0 <Badge type="info" text="August 27, 2026" />
+
+* Added: Hide blocks at certain viewports/CSS breakpoints, either by the breakpoints of your theme or by your own media queries
+* Added: Blocks with visibility settings are now marked in the document overview and the block itself
+* Improved: The visibility panel now explains via tooltip that settings apply to a block
+* Improved: Unified the look and feel of the settings
+* Updated: PHP requirement changed from minimum version 5.6 to 8.0
+* Updated: Library to detect mobile devices
+
 ## Version 1.6.1 <Badge type="info" text="August 12, 2026" />
 
 * Improved: Group labels of the visibility controls are now announced by screen readers

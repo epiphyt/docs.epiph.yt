@@ -1,5 +1,14 @@
 # Änderungsprotokoll
 
+## Version 2.0.0 <Badge type="info" text="27. August 2026" />
+
+* Hinzugefügt: Blende Blöcke für einen bestimmten Viewport/CSS Breakpoint aus, entweder über die Breakpoints deines Themes oder über eigene Media Querys
+* Hinzugefügt: Blöcke mit Sichtbarkeitseinstellungen werden nun in der Dokumentenübersicht und am Block selbst markiert
+* Verbessert: Das Sichtbarkeits-Panel erklärt nun über ein Tooltip, wenn Einstellungen auf den Block angewendet werden
+* Verbessert: Vereinheitlichte Darstellung der Einstellungen
+* Aktualisiert: PHP-Anforderung geändert von Mindestversion 5.6 auf 8.0
+* Aktualisiert: Bibliothek zur Erkennung mobiler Geräte
+
 ## Version 1.6.1 <Badge type="info" text="12. August 2026" />
 
 * Verbessert: Gruppen-Beschriftungen der Sichtbarkeitseinstellungen werden jetzt von Screenreadern angesagt
